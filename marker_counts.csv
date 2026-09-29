@@ -1,0 +1,2092 @@
+co_marker,fish_id,region,chata_and_marker_cells,chata_cells,all_profiled_cells
+cart2,59,Unassigned,1,300,13932
+cart2,59,Inferior medulla,0,639,9741
+cart2,59,Intermediate medulla,1,314,8683
+cart2,59,Superior medulla,0,290,9762
+cart2,59,Superior raphe,0,44,438
+cart2,59,Cerebellum,0,24,4669
+cart2,59,Tegmentum,0,24,2173
+cart2,59,Nucleus isthmi,0,81,4804
+cart2,59,Optic tectum PV,1,199,10842
+cart2,59,Optic tectum neuropil,0,0,408
+cart2,59,Pretectum,0,35,4066
+cart2,59,Prethalamus,0,2,2271
+cart2,59,Dorsal thalamus,0,7,3652
+cart2,59,Habenula,0,0,906
+cart2,59,Hypothalamus,0,0,4872
+cart2,59,Subpallium,0,0,961
+cart2,59,Pallium,0,1,2823
+cart2,63,Unassigned,0,173,14047
+cart2,63,Inferior medulla,0,552,8900
+cart2,63,Intermediate medulla,0,310,9325
+cart2,63,Superior medulla,0,267,10077
+cart2,63,Superior raphe,0,84,447
+cart2,63,Cerebellum,0,40,5386
+cart2,63,Tegmentum,0,14,2297
+cart2,63,Nucleus isthmi,0,73,3722
+cart2,63,Optic tectum PV,0,182,11964
+cart2,63,Optic tectum neuropil,0,0,707
+cart2,63,Pretectum,0,27,4001
+cart2,63,Prethalamus,0,2,2487
+cart2,63,Dorsal thalamus,0,8,3592
+cart2,63,Habenula,0,0,1247
+cart2,63,Hypothalamus,0,4,5335
+cart2,63,Subpallium,0,0,592
+cart2,63,Pallium,0,0,2846
+cart2,71,Unassigned,1,621,16879
+cart2,71,Inferior medulla,0,102,7228
+cart2,71,Intermediate medulla,0,159,11496
+cart2,71,Superior medulla,0,126,11894
+cart2,71,Superior raphe,0,19,617
+cart2,71,Cerebellum,0,72,6587
+cart2,71,Tegmentum,0,3,2644
+cart2,71,Nucleus isthmi,0,45,4617
+cart2,71,Optic tectum PV,1,87,17384
+cart2,71,Optic tectum neuropil,0,1,1388
+cart2,71,Pretectum,0,4,4306
+cart2,71,Prethalamus,0,37,2731
+cart2,71,Dorsal thalamus,0,9,3766
+cart2,71,Habenula,0,1,1201
+cart2,71,Hypothalamus,5,363,5601
+cart2,71,Subpallium,0,57,626
+cart2,71,Pallium,0,467,3515
+glyt2,59,Unassigned,3,300,13932
+glyt2,59,Inferior medulla,29,639,9741
+glyt2,59,Intermediate medulla,13,314,8683
+glyt2,59,Superior medulla,0,290,9762
+glyt2,59,Superior raphe,0,44,438
+glyt2,59,Cerebellum,0,24,4669
+glyt2,59,Tegmentum,0,24,2173
+glyt2,59,Nucleus isthmi,0,81,4804
+glyt2,59,Optic tectum PV,0,199,10842
+glyt2,59,Optic tectum neuropil,0,0,408
+glyt2,59,Pretectum,0,35,4066
+glyt2,59,Prethalamus,0,2,2271
+glyt2,59,Dorsal thalamus,0,7,3652
+glyt2,59,Habenula,0,0,906
+glyt2,59,Hypothalamus,0,0,4872
+glyt2,59,Subpallium,0,0,961
+glyt2,59,Pallium,0,1,2823
+glyt2,63,Unassigned,3,173,14047
+glyt2,63,Inferior medulla,12,552,8900
+glyt2,63,Intermediate medulla,0,310,9325
+glyt2,63,Superior medulla,0,267,10077
+glyt2,63,Superior raphe,0,84,447
+glyt2,63,Cerebellum,2,40,5386
+glyt2,63,Tegmentum,0,14,2297
+glyt2,63,Nucleus isthmi,0,73,3722
+glyt2,63,Optic tectum PV,0,182,11964
+glyt2,63,Optic tectum neuropil,0,0,707
+glyt2,63,Pretectum,0,27,4001
+glyt2,63,Prethalamus,0,2,2487
+glyt2,63,Dorsal thalamus,0,8,3592
+glyt2,63,Habenula,0,0,1247
+glyt2,63,Hypothalamus,0,4,5335
+glyt2,63,Subpallium,0,0,592
+glyt2,63,Pallium,0,0,2846
+glyt2,71,Unassigned,41,621,16879
+glyt2,71,Inferior medulla,2,102,7228
+glyt2,71,Intermediate medulla,0,159,11496
+glyt2,71,Superior medulla,0,126,11894
+glyt2,71,Superior raphe,0,19,617
+glyt2,71,Cerebellum,2,72,6587
+glyt2,71,Tegmentum,0,3,2644
+glyt2,71,Nucleus isthmi,0,45,4617
+glyt2,71,Optic tectum PV,3,87,17384
+glyt2,71,Optic tectum neuropil,0,1,1388
+glyt2,71,Pretectum,0,4,4306
+glyt2,71,Prethalamus,0,37,2731
+glyt2,71,Dorsal thalamus,0,9,3766
+glyt2,71,Habenula,0,1,1201
+glyt2,71,Hypothalamus,0,363,5601
+glyt2,71,Subpallium,0,57,626
+glyt2,71,Pallium,1,467,3515
+tac1,59,Unassigned,72,300,13932
+tac1,59,Inferior medulla,85,639,9741
+tac1,59,Intermediate medulla,99,314,8683
+tac1,59,Superior medulla,122,290,9762
+tac1,59,Superior raphe,22,44,438
+tac1,59,Cerebellum,0,24,4669
+tac1,59,Tegmentum,4,24,2173
+tac1,59,Nucleus isthmi,1,81,4804
+tac1,59,Optic tectum PV,0,199,10842
+tac1,59,Optic tectum neuropil,0,0,408
+tac1,59,Pretectum,0,35,4066
+tac1,59,Prethalamus,0,2,2271
+tac1,59,Dorsal thalamus,0,7,3652
+tac1,59,Habenula,0,0,906
+tac1,59,Hypothalamus,0,0,4872
+tac1,59,Subpallium,0,0,961
+tac1,59,Pallium,0,1,2823
+tac1,63,Unassigned,38,173,14047
+tac1,63,Inferior medulla,106,552,8900
+tac1,63,Intermediate medulla,100,310,9325
+tac1,63,Superior medulla,80,267,10077
+tac1,63,Superior raphe,32,84,447
+tac1,63,Cerebellum,0,40,5386
+tac1,63,Tegmentum,4,14,2297
+tac1,63,Nucleus isthmi,1,73,3722
+tac1,63,Optic tectum PV,0,182,11964
+tac1,63,Optic tectum neuropil,0,0,707
+tac1,63,Pretectum,0,27,4001
+tac1,63,Prethalamus,0,2,2487
+tac1,63,Dorsal thalamus,0,8,3592
+tac1,63,Habenula,0,0,1247
+tac1,63,Hypothalamus,1,4,5335
+tac1,63,Subpallium,0,0,592
+tac1,63,Pallium,0,0,2846
+tac1,71,Unassigned,16,621,16879
+tac1,71,Inferior medulla,28,102,7228
+tac1,71,Intermediate medulla,84,159,11496
+tac1,71,Superior medulla,58,126,11894
+tac1,71,Superior raphe,11,19,617
+tac1,71,Cerebellum,0,72,6587
+tac1,71,Tegmentum,0,3,2644
+tac1,71,Nucleus isthmi,0,45,4617
+tac1,71,Optic tectum PV,0,87,17384
+tac1,71,Optic tectum neuropil,0,1,1388
+tac1,71,Pretectum,0,4,4306
+tac1,71,Prethalamus,1,37,2731
+tac1,71,Dorsal thalamus,0,9,3766
+tac1,71,Habenula,0,1,1201
+tac1,71,Hypothalamus,51,363,5601
+tac1,71,Subpallium,0,57,626
+tac1,71,Pallium,8,467,3515
+pvalb7,59,Unassigned,0,300,13932
+pvalb7,59,Inferior medulla,0,639,9741
+pvalb7,59,Intermediate medulla,0,314,8683
+pvalb7,59,Superior medulla,1,290,9762
+pvalb7,59,Superior raphe,0,44,438
+pvalb7,59,Cerebellum,0,24,4669
+pvalb7,59,Tegmentum,0,24,2173
+pvalb7,59,Nucleus isthmi,0,81,4804
+pvalb7,59,Optic tectum PV,0,199,10842
+pvalb7,59,Optic tectum neuropil,0,0,408
+pvalb7,59,Pretectum,0,35,4066
+pvalb7,59,Prethalamus,0,2,2271
+pvalb7,59,Dorsal thalamus,0,7,3652
+pvalb7,59,Habenula,0,0,906
+pvalb7,59,Hypothalamus,0,0,4872
+pvalb7,59,Subpallium,0,0,961
+pvalb7,59,Pallium,0,1,2823
+pvalb7,63,Unassigned,3,173,14047
+pvalb7,63,Inferior medulla,0,552,8900
+pvalb7,63,Intermediate medulla,0,310,9325
+pvalb7,63,Superior medulla,0,267,10077
+pvalb7,63,Superior raphe,0,84,447
+pvalb7,63,Cerebellum,0,40,5386
+pvalb7,63,Tegmentum,0,14,2297
+pvalb7,63,Nucleus isthmi,0,73,3722
+pvalb7,63,Optic tectum PV,0,182,11964
+pvalb7,63,Optic tectum neuropil,0,0,707
+pvalb7,63,Pretectum,0,27,4001
+pvalb7,63,Prethalamus,0,2,2487
+pvalb7,63,Dorsal thalamus,0,8,3592
+pvalb7,63,Habenula,0,0,1247
+pvalb7,63,Hypothalamus,0,4,5335
+pvalb7,63,Subpallium,0,0,592
+pvalb7,63,Pallium,0,0,2846
+pvalb7,71,Unassigned,34,621,16879
+pvalb7,71,Inferior medulla,1,102,7228
+pvalb7,71,Intermediate medulla,2,159,11496
+pvalb7,71,Superior medulla,11,126,11894
+pvalb7,71,Superior raphe,0,19,617
+pvalb7,71,Cerebellum,0,72,6587
+pvalb7,71,Tegmentum,0,3,2644
+pvalb7,71,Nucleus isthmi,11,45,4617
+pvalb7,71,Optic tectum PV,0,87,17384
+pvalb7,71,Optic tectum neuropil,0,1,1388
+pvalb7,71,Pretectum,0,4,4306
+pvalb7,71,Prethalamus,0,37,2731
+pvalb7,71,Dorsal thalamus,1,9,3766
+pvalb7,71,Habenula,0,1,1201
+pvalb7,71,Hypothalamus,30,363,5601
+pvalb7,71,Subpallium,0,57,626
+pvalb7,71,Pallium,7,467,3515
+npb,59,Unassigned,0,300,13932
+npb,59,Inferior medulla,1,639,9741
+npb,59,Intermediate medulla,0,314,8683
+npb,59,Superior medulla,0,290,9762
+npb,59,Superior raphe,0,44,438
+npb,59,Cerebellum,0,24,4669
+npb,59,Tegmentum,0,24,2173
+npb,59,Nucleus isthmi,0,81,4804
+npb,59,Optic tectum PV,0,199,10842
+npb,59,Optic tectum neuropil,0,0,408
+npb,59,Pretectum,0,35,4066
+npb,59,Prethalamus,0,2,2271
+npb,59,Dorsal thalamus,0,7,3652
+npb,59,Habenula,0,0,906
+npb,59,Hypothalamus,0,0,4872
+npb,59,Subpallium,0,0,961
+npb,59,Pallium,0,1,2823
+npb,63,Unassigned,0,173,14047
+npb,63,Inferior medulla,0,552,8900
+npb,63,Intermediate medulla,0,310,9325
+npb,63,Superior medulla,0,267,10077
+npb,63,Superior raphe,0,84,447
+npb,63,Cerebellum,0,40,5386
+npb,63,Tegmentum,0,14,2297
+npb,63,Nucleus isthmi,0,73,3722
+npb,63,Optic tectum PV,0,182,11964
+npb,63,Optic tectum neuropil,0,0,707
+npb,63,Pretectum,0,27,4001
+npb,63,Prethalamus,0,2,2487
+npb,63,Dorsal thalamus,0,8,3592
+npb,63,Habenula,0,0,1247
+npb,63,Hypothalamus,0,4,5335
+npb,63,Subpallium,0,0,592
+npb,63,Pallium,0,0,2846
+npb,71,Unassigned,0,621,16879
+npb,71,Inferior medulla,0,102,7228
+npb,71,Intermediate medulla,0,159,11496
+npb,71,Superior medulla,0,126,11894
+npb,71,Superior raphe,0,19,617
+npb,71,Cerebellum,0,72,6587
+npb,71,Tegmentum,0,3,2644
+npb,71,Nucleus isthmi,0,45,4617
+npb,71,Optic tectum PV,0,87,17384
+npb,71,Optic tectum neuropil,0,1,1388
+npb,71,Pretectum,0,4,4306
+npb,71,Prethalamus,0,37,2731
+npb,71,Dorsal thalamus,1,9,3766
+npb,71,Habenula,0,1,1201
+npb,71,Hypothalamus,0,363,5601
+npb,71,Subpallium,0,57,626
+npb,71,Pallium,0,467,3515
+grm1b,59,Unassigned,0,300,13932
+grm1b,59,Inferior medulla,0,639,9741
+grm1b,59,Intermediate medulla,0,314,8683
+grm1b,59,Superior medulla,0,290,9762
+grm1b,59,Superior raphe,0,44,438
+grm1b,59,Cerebellum,0,24,4669
+grm1b,59,Tegmentum,0,24,2173
+grm1b,59,Nucleus isthmi,0,81,4804
+grm1b,59,Optic tectum PV,0,199,10842
+grm1b,59,Optic tectum neuropil,0,0,408
+grm1b,59,Pretectum,0,35,4066
+grm1b,59,Prethalamus,0,2,2271
+grm1b,59,Dorsal thalamus,0,7,3652
+grm1b,59,Habenula,0,0,906
+grm1b,59,Hypothalamus,0,0,4872
+grm1b,59,Subpallium,0,0,961
+grm1b,59,Pallium,0,1,2823
+grm1b,63,Unassigned,3,173,14047
+grm1b,63,Inferior medulla,0,552,8900
+grm1b,63,Intermediate medulla,2,310,9325
+grm1b,63,Superior medulla,0,267,10077
+grm1b,63,Superior raphe,0,84,447
+grm1b,63,Cerebellum,0,40,5386
+grm1b,63,Tegmentum,0,14,2297
+grm1b,63,Nucleus isthmi,0,73,3722
+grm1b,63,Optic tectum PV,4,182,11964
+grm1b,63,Optic tectum neuropil,0,0,707
+grm1b,63,Pretectum,0,27,4001
+grm1b,63,Prethalamus,0,2,2487
+grm1b,63,Dorsal thalamus,0,8,3592
+grm1b,63,Habenula,0,0,1247
+grm1b,63,Hypothalamus,0,4,5335
+grm1b,63,Subpallium,0,0,592
+grm1b,63,Pallium,0,0,2846
+grm1b,71,Unassigned,1,621,16879
+grm1b,71,Inferior medulla,0,102,7228
+grm1b,71,Intermediate medulla,0,159,11496
+grm1b,71,Superior medulla,0,126,11894
+grm1b,71,Superior raphe,0,19,617
+grm1b,71,Cerebellum,0,72,6587
+grm1b,71,Tegmentum,0,3,2644
+grm1b,71,Nucleus isthmi,0,45,4617
+grm1b,71,Optic tectum PV,1,87,17384
+grm1b,71,Optic tectum neuropil,0,1,1388
+grm1b,71,Pretectum,0,4,4306
+grm1b,71,Prethalamus,0,37,2731
+grm1b,71,Dorsal thalamus,0,9,3766
+grm1b,71,Habenula,0,1,1201
+grm1b,71,Hypothalamus,1,363,5601
+grm1b,71,Subpallium,0,57,626
+grm1b,71,Pallium,0,467,3515
+irx1b,59,Unassigned,2,300,13932
+irx1b,59,Inferior medulla,6,639,9741
+irx1b,59,Intermediate medulla,0,314,8683
+irx1b,59,Superior medulla,1,290,9762
+irx1b,59,Superior raphe,0,44,438
+irx1b,59,Cerebellum,0,24,4669
+irx1b,59,Tegmentum,0,24,2173
+irx1b,59,Nucleus isthmi,0,81,4804
+irx1b,59,Optic tectum PV,0,199,10842
+irx1b,59,Optic tectum neuropil,0,0,408
+irx1b,59,Pretectum,0,35,4066
+irx1b,59,Prethalamus,0,2,2271
+irx1b,59,Dorsal thalamus,0,7,3652
+irx1b,59,Habenula,0,0,906
+irx1b,59,Hypothalamus,0,0,4872
+irx1b,59,Subpallium,0,0,961
+irx1b,59,Pallium,0,1,2823
+irx1b,63,Unassigned,1,173,14047
+irx1b,63,Inferior medulla,2,552,8900
+irx1b,63,Intermediate medulla,0,310,9325
+irx1b,63,Superior medulla,0,267,10077
+irx1b,63,Superior raphe,0,84,447
+irx1b,63,Cerebellum,0,40,5386
+irx1b,63,Tegmentum,0,14,2297
+irx1b,63,Nucleus isthmi,0,73,3722
+irx1b,63,Optic tectum PV,0,182,11964
+irx1b,63,Optic tectum neuropil,0,0,707
+irx1b,63,Pretectum,0,27,4001
+irx1b,63,Prethalamus,0,2,2487
+irx1b,63,Dorsal thalamus,0,8,3592
+irx1b,63,Habenula,0,0,1247
+irx1b,63,Hypothalamus,0,4,5335
+irx1b,63,Subpallium,0,0,592
+irx1b,63,Pallium,0,0,2846
+irx1b,71,Unassigned,3,621,16879
+irx1b,71,Inferior medulla,0,102,7228
+irx1b,71,Intermediate medulla,0,159,11496
+irx1b,71,Superior medulla,0,126,11894
+irx1b,71,Superior raphe,0,19,617
+irx1b,71,Cerebellum,0,72,6587
+irx1b,71,Tegmentum,0,3,2644
+irx1b,71,Nucleus isthmi,0,45,4617
+irx1b,71,Optic tectum PV,1,87,17384
+irx1b,71,Optic tectum neuropil,0,1,1388
+irx1b,71,Pretectum,0,4,4306
+irx1b,71,Prethalamus,0,37,2731
+irx1b,71,Dorsal thalamus,0,9,3766
+irx1b,71,Habenula,1,1,1201
+irx1b,71,Hypothalamus,0,363,5601
+irx1b,71,Subpallium,0,57,626
+irx1b,71,Pallium,1,467,3515
+dat,59,Unassigned,0,300,13932
+dat,59,Inferior medulla,0,639,9741
+dat,59,Intermediate medulla,3,314,8683
+dat,59,Superior medulla,0,290,9762
+dat,59,Superior raphe,0,44,438
+dat,59,Cerebellum,0,24,4669
+dat,59,Tegmentum,0,24,2173
+dat,59,Nucleus isthmi,0,81,4804
+dat,59,Optic tectum PV,0,199,10842
+dat,59,Optic tectum neuropil,0,0,408
+dat,59,Pretectum,0,35,4066
+dat,59,Prethalamus,0,2,2271
+dat,59,Dorsal thalamus,0,7,3652
+dat,59,Habenula,0,0,906
+dat,59,Hypothalamus,0,0,4872
+dat,59,Subpallium,0,0,961
+dat,59,Pallium,0,1,2823
+dat,63,Unassigned,0,173,14047
+dat,63,Inferior medulla,0,552,8900
+dat,63,Intermediate medulla,0,310,9325
+dat,63,Superior medulla,0,267,10077
+dat,63,Superior raphe,0,84,447
+dat,63,Cerebellum,0,40,5386
+dat,63,Tegmentum,0,14,2297
+dat,63,Nucleus isthmi,0,73,3722
+dat,63,Optic tectum PV,0,182,11964
+dat,63,Optic tectum neuropil,0,0,707
+dat,63,Pretectum,0,27,4001
+dat,63,Prethalamus,0,2,2487
+dat,63,Dorsal thalamus,0,8,3592
+dat,63,Habenula,0,0,1247
+dat,63,Hypothalamus,0,4,5335
+dat,63,Subpallium,0,0,592
+dat,63,Pallium,0,0,2846
+dat,71,Unassigned,3,621,16879
+dat,71,Inferior medulla,0,102,7228
+dat,71,Intermediate medulla,0,159,11496
+dat,71,Superior medulla,0,126,11894
+dat,71,Superior raphe,0,19,617
+dat,71,Cerebellum,1,72,6587
+dat,71,Tegmentum,0,3,2644
+dat,71,Nucleus isthmi,0,45,4617
+dat,71,Optic tectum PV,0,87,17384
+dat,71,Optic tectum neuropil,0,1,1388
+dat,71,Pretectum,0,4,4306
+dat,71,Prethalamus,5,37,2731
+dat,71,Dorsal thalamus,0,9,3766
+dat,71,Habenula,0,1,1201
+dat,71,Hypothalamus,2,363,5601
+dat,71,Subpallium,0,57,626
+dat,71,Pallium,0,467,3515
+net,59,Unassigned,1,300,13932
+net,59,Inferior medulla,2,639,9741
+net,59,Intermediate medulla,0,314,8683
+net,59,Superior medulla,2,290,9762
+net,59,Superior raphe,0,44,438
+net,59,Cerebellum,0,24,4669
+net,59,Tegmentum,0,24,2173
+net,59,Nucleus isthmi,2,81,4804
+net,59,Optic tectum PV,0,199,10842
+net,59,Optic tectum neuropil,0,0,408
+net,59,Pretectum,0,35,4066
+net,59,Prethalamus,0,2,2271
+net,59,Dorsal thalamus,0,7,3652
+net,59,Habenula,0,0,906
+net,59,Hypothalamus,0,0,4872
+net,59,Subpallium,0,0,961
+net,59,Pallium,0,1,2823
+net,63,Unassigned,0,173,14047
+net,63,Inferior medulla,0,552,8900
+net,63,Intermediate medulla,0,310,9325
+net,63,Superior medulla,1,267,10077
+net,63,Superior raphe,0,84,447
+net,63,Cerebellum,0,40,5386
+net,63,Tegmentum,0,14,2297
+net,63,Nucleus isthmi,0,73,3722
+net,63,Optic tectum PV,0,182,11964
+net,63,Optic tectum neuropil,0,0,707
+net,63,Pretectum,0,27,4001
+net,63,Prethalamus,0,2,2487
+net,63,Dorsal thalamus,0,8,3592
+net,63,Habenula,0,0,1247
+net,63,Hypothalamus,0,4,5335
+net,63,Subpallium,0,0,592
+net,63,Pallium,0,0,2846
+net,71,Unassigned,0,621,16879
+net,71,Inferior medulla,0,102,7228
+net,71,Intermediate medulla,0,159,11496
+net,71,Superior medulla,5,126,11894
+net,71,Superior raphe,0,19,617
+net,71,Cerebellum,0,72,6587
+net,71,Tegmentum,0,3,2644
+net,71,Nucleus isthmi,0,45,4617
+net,71,Optic tectum PV,0,87,17384
+net,71,Optic tectum neuropil,0,1,1388
+net,71,Pretectum,0,4,4306
+net,71,Prethalamus,0,37,2731
+net,71,Dorsal thalamus,0,9,3766
+net,71,Habenula,0,1,1201
+net,71,Hypothalamus,0,363,5601
+net,71,Subpallium,1,57,626
+net,71,Pallium,0,467,3515
+calb1,59,Unassigned,1,300,13932
+calb1,59,Inferior medulla,8,639,9741
+calb1,59,Intermediate medulla,4,314,8683
+calb1,59,Superior medulla,2,290,9762
+calb1,59,Superior raphe,0,44,438
+calb1,59,Cerebellum,0,24,4669
+calb1,59,Tegmentum,0,24,2173
+calb1,59,Nucleus isthmi,0,81,4804
+calb1,59,Optic tectum PV,0,199,10842
+calb1,59,Optic tectum neuropil,0,0,408
+calb1,59,Pretectum,0,35,4066
+calb1,59,Prethalamus,0,2,2271
+calb1,59,Dorsal thalamus,0,7,3652
+calb1,59,Habenula,0,0,906
+calb1,59,Hypothalamus,0,0,4872
+calb1,59,Subpallium,0,0,961
+calb1,59,Pallium,0,1,2823
+calb1,63,Unassigned,0,173,14047
+calb1,63,Inferior medulla,1,552,8900
+calb1,63,Intermediate medulla,2,310,9325
+calb1,63,Superior medulla,0,267,10077
+calb1,63,Superior raphe,0,84,447
+calb1,63,Cerebellum,0,40,5386
+calb1,63,Tegmentum,0,14,2297
+calb1,63,Nucleus isthmi,0,73,3722
+calb1,63,Optic tectum PV,0,182,11964
+calb1,63,Optic tectum neuropil,0,0,707
+calb1,63,Pretectum,0,27,4001
+calb1,63,Prethalamus,0,2,2487
+calb1,63,Dorsal thalamus,0,8,3592
+calb1,63,Habenula,0,0,1247
+calb1,63,Hypothalamus,0,4,5335
+calb1,63,Subpallium,0,0,592
+calb1,63,Pallium,0,0,2846
+calb1,71,Unassigned,5,621,16879
+calb1,71,Inferior medulla,1,102,7228
+calb1,71,Intermediate medulla,9,159,11496
+calb1,71,Superior medulla,2,126,11894
+calb1,71,Superior raphe,0,19,617
+calb1,71,Cerebellum,0,72,6587
+calb1,71,Tegmentum,0,3,2644
+calb1,71,Nucleus isthmi,1,45,4617
+calb1,71,Optic tectum PV,0,87,17384
+calb1,71,Optic tectum neuropil,0,1,1388
+calb1,71,Pretectum,0,4,4306
+calb1,71,Prethalamus,2,37,2731
+calb1,71,Dorsal thalamus,0,9,3766
+calb1,71,Habenula,0,1,1201
+calb1,71,Hypothalamus,5,363,5601
+calb1,71,Subpallium,0,57,626
+calb1,71,Pallium,0,467,3515
+penka,59,Unassigned,0,300,13932
+penka,59,Inferior medulla,0,639,9741
+penka,59,Intermediate medulla,0,314,8683
+penka,59,Superior medulla,0,290,9762
+penka,59,Superior raphe,0,44,438
+penka,59,Cerebellum,0,24,4669
+penka,59,Tegmentum,0,24,2173
+penka,59,Nucleus isthmi,0,81,4804
+penka,59,Optic tectum PV,0,199,10842
+penka,59,Optic tectum neuropil,0,0,408
+penka,59,Pretectum,0,35,4066
+penka,59,Prethalamus,0,2,2271
+penka,59,Dorsal thalamus,0,7,3652
+penka,59,Habenula,0,0,906
+penka,59,Hypothalamus,0,0,4872
+penka,59,Subpallium,0,0,961
+penka,59,Pallium,0,1,2823
+penka,63,Unassigned,2,173,14047
+penka,63,Inferior medulla,0,552,8900
+penka,63,Intermediate medulla,0,310,9325
+penka,63,Superior medulla,0,267,10077
+penka,63,Superior raphe,3,84,447
+penka,63,Cerebellum,1,40,5386
+penka,63,Tegmentum,0,14,2297
+penka,63,Nucleus isthmi,0,73,3722
+penka,63,Optic tectum PV,0,182,11964
+penka,63,Optic tectum neuropil,0,0,707
+penka,63,Pretectum,0,27,4001
+penka,63,Prethalamus,0,2,2487
+penka,63,Dorsal thalamus,0,8,3592
+penka,63,Habenula,0,0,1247
+penka,63,Hypothalamus,0,4,5335
+penka,63,Subpallium,0,0,592
+penka,63,Pallium,0,0,2846
+penka,71,Unassigned,12,621,16879
+penka,71,Inferior medulla,0,102,7228
+penka,71,Intermediate medulla,0,159,11496
+penka,71,Superior medulla,0,126,11894
+penka,71,Superior raphe,0,19,617
+penka,71,Cerebellum,0,72,6587
+penka,71,Tegmentum,0,3,2644
+penka,71,Nucleus isthmi,0,45,4617
+penka,71,Optic tectum PV,1,87,17384
+penka,71,Optic tectum neuropil,0,1,1388
+penka,71,Pretectum,0,4,4306
+penka,71,Prethalamus,0,37,2731
+penka,71,Dorsal thalamus,0,9,3766
+penka,71,Habenula,0,1,1201
+penka,71,Hypothalamus,4,363,5601
+penka,71,Subpallium,0,57,626
+penka,71,Pallium,0,467,3515
+penkb,59,Unassigned,2,300,13932
+penkb,59,Inferior medulla,0,639,9741
+penkb,59,Intermediate medulla,2,314,8683
+penkb,59,Superior medulla,1,290,9762
+penkb,59,Superior raphe,0,44,438
+penkb,59,Cerebellum,0,24,4669
+penkb,59,Tegmentum,0,24,2173
+penkb,59,Nucleus isthmi,0,81,4804
+penkb,59,Optic tectum PV,1,199,10842
+penkb,59,Optic tectum neuropil,0,0,408
+penkb,59,Pretectum,0,35,4066
+penkb,59,Prethalamus,0,2,2271
+penkb,59,Dorsal thalamus,0,7,3652
+penkb,59,Habenula,0,0,906
+penkb,59,Hypothalamus,0,0,4872
+penkb,59,Subpallium,0,0,961
+penkb,59,Pallium,0,1,2823
+penkb,63,Unassigned,0,173,14047
+penkb,63,Inferior medulla,2,552,8900
+penkb,63,Intermediate medulla,0,310,9325
+penkb,63,Superior medulla,0,267,10077
+penkb,63,Superior raphe,0,84,447
+penkb,63,Cerebellum,0,40,5386
+penkb,63,Tegmentum,0,14,2297
+penkb,63,Nucleus isthmi,0,73,3722
+penkb,63,Optic tectum PV,0,182,11964
+penkb,63,Optic tectum neuropil,0,0,707
+penkb,63,Pretectum,0,27,4001
+penkb,63,Prethalamus,0,2,2487
+penkb,63,Dorsal thalamus,0,8,3592
+penkb,63,Habenula,0,0,1247
+penkb,63,Hypothalamus,0,4,5335
+penkb,63,Subpallium,0,0,592
+penkb,63,Pallium,0,0,2846
+penkb,71,Unassigned,10,621,16879
+penkb,71,Inferior medulla,0,102,7228
+penkb,71,Intermediate medulla,1,159,11496
+penkb,71,Superior medulla,0,126,11894
+penkb,71,Superior raphe,0,19,617
+penkb,71,Cerebellum,2,72,6587
+penkb,71,Tegmentum,0,3,2644
+penkb,71,Nucleus isthmi,0,45,4617
+penkb,71,Optic tectum PV,0,87,17384
+penkb,71,Optic tectum neuropil,0,1,1388
+penkb,71,Pretectum,0,4,4306
+penkb,71,Prethalamus,1,37,2731
+penkb,71,Dorsal thalamus,1,9,3766
+penkb,71,Habenula,0,1,1201
+penkb,71,Hypothalamus,18,363,5601
+penkb,71,Subpallium,15,57,626
+penkb,71,Pallium,9,467,3515
+eomesa,59,Unassigned,0,300,13932
+eomesa,59,Inferior medulla,0,639,9741
+eomesa,59,Intermediate medulla,0,314,8683
+eomesa,59,Superior medulla,0,290,9762
+eomesa,59,Superior raphe,1,44,438
+eomesa,59,Cerebellum,0,24,4669
+eomesa,59,Tegmentum,0,24,2173
+eomesa,59,Nucleus isthmi,0,81,4804
+eomesa,59,Optic tectum PV,0,199,10842
+eomesa,59,Optic tectum neuropil,0,0,408
+eomesa,59,Pretectum,0,35,4066
+eomesa,59,Prethalamus,0,2,2271
+eomesa,59,Dorsal thalamus,0,7,3652
+eomesa,59,Habenula,0,0,906
+eomesa,59,Hypothalamus,0,0,4872
+eomesa,59,Subpallium,0,0,961
+eomesa,59,Pallium,0,1,2823
+eomesa,63,Unassigned,0,173,14047
+eomesa,63,Inferior medulla,0,552,8900
+eomesa,63,Intermediate medulla,0,310,9325
+eomesa,63,Superior medulla,0,267,10077
+eomesa,63,Superior raphe,0,84,447
+eomesa,63,Cerebellum,0,40,5386
+eomesa,63,Tegmentum,0,14,2297
+eomesa,63,Nucleus isthmi,0,73,3722
+eomesa,63,Optic tectum PV,0,182,11964
+eomesa,63,Optic tectum neuropil,0,0,707
+eomesa,63,Pretectum,0,27,4001
+eomesa,63,Prethalamus,0,2,2487
+eomesa,63,Dorsal thalamus,0,8,3592
+eomesa,63,Habenula,0,0,1247
+eomesa,63,Hypothalamus,0,4,5335
+eomesa,63,Subpallium,0,0,592
+eomesa,63,Pallium,0,0,2846
+eomesa,71,Unassigned,99,621,16879
+eomesa,71,Inferior medulla,0,102,7228
+eomesa,71,Intermediate medulla,0,159,11496
+eomesa,71,Superior medulla,0,126,11894
+eomesa,71,Superior raphe,0,19,617
+eomesa,71,Cerebellum,0,72,6587
+eomesa,71,Tegmentum,0,3,2644
+eomesa,71,Nucleus isthmi,0,45,4617
+eomesa,71,Optic tectum PV,0,87,17384
+eomesa,71,Optic tectum neuropil,0,1,1388
+eomesa,71,Pretectum,0,4,4306
+eomesa,71,Prethalamus,0,37,2731
+eomesa,71,Dorsal thalamus,0,9,3766
+eomesa,71,Habenula,0,1,1201
+eomesa,71,Hypothalamus,1,363,5601
+eomesa,71,Subpallium,1,57,626
+eomesa,71,Pallium,249,467,3515
+emx3,59,Unassigned,0,300,13932
+emx3,59,Inferior medulla,0,639,9741
+emx3,59,Intermediate medulla,0,314,8683
+emx3,59,Superior medulla,0,290,9762
+emx3,59,Superior raphe,0,44,438
+emx3,59,Cerebellum,0,24,4669
+emx3,59,Tegmentum,0,24,2173
+emx3,59,Nucleus isthmi,0,81,4804
+emx3,59,Optic tectum PV,0,199,10842
+emx3,59,Optic tectum neuropil,0,0,408
+emx3,59,Pretectum,0,35,4066
+emx3,59,Prethalamus,0,2,2271
+emx3,59,Dorsal thalamus,0,7,3652
+emx3,59,Habenula,0,0,906
+emx3,59,Hypothalamus,0,0,4872
+emx3,59,Subpallium,0,0,961
+emx3,59,Pallium,0,1,2823
+emx3,63,Unassigned,0,173,14047
+emx3,63,Inferior medulla,0,552,8900
+emx3,63,Intermediate medulla,0,310,9325
+emx3,63,Superior medulla,0,267,10077
+emx3,63,Superior raphe,0,84,447
+emx3,63,Cerebellum,0,40,5386
+emx3,63,Tegmentum,0,14,2297
+emx3,63,Nucleus isthmi,0,73,3722
+emx3,63,Optic tectum PV,0,182,11964
+emx3,63,Optic tectum neuropil,0,0,707
+emx3,63,Pretectum,0,27,4001
+emx3,63,Prethalamus,0,2,2487
+emx3,63,Dorsal thalamus,0,8,3592
+emx3,63,Habenula,0,0,1247
+emx3,63,Hypothalamus,0,4,5335
+emx3,63,Subpallium,0,0,592
+emx3,63,Pallium,0,0,2846
+emx3,71,Unassigned,13,621,16879
+emx3,71,Inferior medulla,0,102,7228
+emx3,71,Intermediate medulla,0,159,11496
+emx3,71,Superior medulla,0,126,11894
+emx3,71,Superior raphe,0,19,617
+emx3,71,Cerebellum,0,72,6587
+emx3,71,Tegmentum,0,3,2644
+emx3,71,Nucleus isthmi,0,45,4617
+emx3,71,Optic tectum PV,0,87,17384
+emx3,71,Optic tectum neuropil,0,1,1388
+emx3,71,Pretectum,0,4,4306
+emx3,71,Prethalamus,0,37,2731
+emx3,71,Dorsal thalamus,1,9,3766
+emx3,71,Habenula,0,1,1201
+emx3,71,Hypothalamus,0,363,5601
+emx3,71,Subpallium,8,57,626
+emx3,71,Pallium,44,467,3515
+cfos,59,Unassigned,43,300,13932
+cfos,59,Inferior medulla,48,639,9741
+cfos,59,Intermediate medulla,76,314,8683
+cfos,59,Superior medulla,49,290,9762
+cfos,59,Superior raphe,7,44,438
+cfos,59,Cerebellum,1,24,4669
+cfos,59,Tegmentum,1,24,2173
+cfos,59,Nucleus isthmi,5,81,4804
+cfos,59,Optic tectum PV,5,199,10842
+cfos,59,Optic tectum neuropil,0,0,408
+cfos,59,Pretectum,0,35,4066
+cfos,59,Prethalamus,1,2,2271
+cfos,59,Dorsal thalamus,0,7,3652
+cfos,59,Habenula,0,0,906
+cfos,59,Hypothalamus,0,0,4872
+cfos,59,Subpallium,0,0,961
+cfos,59,Pallium,0,1,2823
+cfos,63,Unassigned,12,173,14047
+cfos,63,Inferior medulla,57,552,8900
+cfos,63,Intermediate medulla,70,310,9325
+cfos,63,Superior medulla,56,267,10077
+cfos,63,Superior raphe,3,84,447
+cfos,63,Cerebellum,0,40,5386
+cfos,63,Tegmentum,0,14,2297
+cfos,63,Nucleus isthmi,3,73,3722
+cfos,63,Optic tectum PV,3,182,11964
+cfos,63,Optic tectum neuropil,0,0,707
+cfos,63,Pretectum,2,27,4001
+cfos,63,Prethalamus,0,2,2487
+cfos,63,Dorsal thalamus,1,8,3592
+cfos,63,Habenula,0,0,1247
+cfos,63,Hypothalamus,0,4,5335
+cfos,63,Subpallium,0,0,592
+cfos,63,Pallium,0,0,2846
+cfos,71,Unassigned,47,621,16879
+cfos,71,Inferior medulla,14,102,7228
+cfos,71,Intermediate medulla,66,159,11496
+cfos,71,Superior medulla,32,126,11894
+cfos,71,Superior raphe,8,19,617
+cfos,71,Cerebellum,1,72,6587
+cfos,71,Tegmentum,0,3,2644
+cfos,71,Nucleus isthmi,2,45,4617
+cfos,71,Optic tectum PV,2,87,17384
+cfos,71,Optic tectum neuropil,0,1,1388
+cfos,71,Pretectum,0,4,4306
+cfos,71,Prethalamus,3,37,2731
+cfos,71,Dorsal thalamus,2,9,3766
+cfos,71,Habenula,0,1,1201
+cfos,71,Hypothalamus,27,363,5601
+cfos,71,Subpallium,5,57,626
+cfos,71,Pallium,65,467,3515
+gad1b,59,Unassigned,5,300,13932
+gad1b,59,Inferior medulla,12,639,9741
+gad1b,59,Intermediate medulla,29,314,8683
+gad1b,59,Superior medulla,9,290,9762
+gad1b,59,Superior raphe,0,44,438
+gad1b,59,Cerebellum,0,24,4669
+gad1b,59,Tegmentum,1,24,2173
+gad1b,59,Nucleus isthmi,0,81,4804
+gad1b,59,Optic tectum PV,10,199,10842
+gad1b,59,Optic tectum neuropil,0,0,408
+gad1b,59,Pretectum,3,35,4066
+gad1b,59,Prethalamus,0,2,2271
+gad1b,59,Dorsal thalamus,0,7,3652
+gad1b,59,Habenula,0,0,906
+gad1b,59,Hypothalamus,0,0,4872
+gad1b,59,Subpallium,0,0,961
+gad1b,59,Pallium,0,1,2823
+gad1b,63,Unassigned,1,173,14047
+gad1b,63,Inferior medulla,10,552,8900
+gad1b,63,Intermediate medulla,34,310,9325
+gad1b,63,Superior medulla,10,267,10077
+gad1b,63,Superior raphe,3,84,447
+gad1b,63,Cerebellum,0,40,5386
+gad1b,63,Tegmentum,0,14,2297
+gad1b,63,Nucleus isthmi,0,73,3722
+gad1b,63,Optic tectum PV,2,182,11964
+gad1b,63,Optic tectum neuropil,0,0,707
+gad1b,63,Pretectum,1,27,4001
+gad1b,63,Prethalamus,0,2,2487
+gad1b,63,Dorsal thalamus,1,8,3592
+gad1b,63,Habenula,0,0,1247
+gad1b,63,Hypothalamus,0,4,5335
+gad1b,63,Subpallium,0,0,592
+gad1b,63,Pallium,0,0,2846
+gad1b,71,Unassigned,16,621,16879
+gad1b,71,Inferior medulla,4,102,7228
+gad1b,71,Intermediate medulla,8,159,11496
+gad1b,71,Superior medulla,7,126,11894
+gad1b,71,Superior raphe,0,19,617
+gad1b,71,Cerebellum,1,72,6587
+gad1b,71,Tegmentum,0,3,2644
+gad1b,71,Nucleus isthmi,1,45,4617
+gad1b,71,Optic tectum PV,5,87,17384
+gad1b,71,Optic tectum neuropil,0,1,1388
+gad1b,71,Pretectum,0,4,4306
+gad1b,71,Prethalamus,8,37,2731
+gad1b,71,Dorsal thalamus,2,9,3766
+gad1b,71,Habenula,0,1,1201
+gad1b,71,Hypothalamus,44,363,5601
+gad1b,71,Subpallium,10,57,626
+gad1b,71,Pallium,0,467,3515
+cx43,59,Unassigned,3,300,13932
+cx43,59,Inferior medulla,10,639,9741
+cx43,59,Intermediate medulla,6,314,8683
+cx43,59,Superior medulla,3,290,9762
+cx43,59,Superior raphe,0,44,438
+cx43,59,Cerebellum,0,24,4669
+cx43,59,Tegmentum,1,24,2173
+cx43,59,Nucleus isthmi,1,81,4804
+cx43,59,Optic tectum PV,0,199,10842
+cx43,59,Optic tectum neuropil,0,0,408
+cx43,59,Pretectum,2,35,4066
+cx43,59,Prethalamus,0,2,2271
+cx43,59,Dorsal thalamus,0,7,3652
+cx43,59,Habenula,0,0,906
+cx43,59,Hypothalamus,0,0,4872
+cx43,59,Subpallium,0,0,961
+cx43,59,Pallium,0,1,2823
+cx43,63,Unassigned,4,173,14047
+cx43,63,Inferior medulla,0,552,8900
+cx43,63,Intermediate medulla,0,310,9325
+cx43,63,Superior medulla,0,267,10077
+cx43,63,Superior raphe,0,84,447
+cx43,63,Cerebellum,4,40,5386
+cx43,63,Tegmentum,0,14,2297
+cx43,63,Nucleus isthmi,0,73,3722
+cx43,63,Optic tectum PV,0,182,11964
+cx43,63,Optic tectum neuropil,0,0,707
+cx43,63,Pretectum,0,27,4001
+cx43,63,Prethalamus,0,2,2487
+cx43,63,Dorsal thalamus,0,8,3592
+cx43,63,Habenula,0,0,1247
+cx43,63,Hypothalamus,0,4,5335
+cx43,63,Subpallium,0,0,592
+cx43,63,Pallium,0,0,2846
+cx43,71,Unassigned,107,621,16879
+cx43,71,Inferior medulla,1,102,7228
+cx43,71,Intermediate medulla,0,159,11496
+cx43,71,Superior medulla,0,126,11894
+cx43,71,Superior raphe,0,19,617
+cx43,71,Cerebellum,22,72,6587
+cx43,71,Tegmentum,0,3,2644
+cx43,71,Nucleus isthmi,0,45,4617
+cx43,71,Optic tectum PV,3,87,17384
+cx43,71,Optic tectum neuropil,0,1,1388
+cx43,71,Pretectum,0,4,4306
+cx43,71,Prethalamus,1,37,2731
+cx43,71,Dorsal thalamus,0,9,3766
+cx43,71,Habenula,0,1,1201
+cx43,71,Hypothalamus,1,363,5601
+cx43,71,Subpallium,1,57,626
+cx43,71,Pallium,6,467,3515
+vglut2a,59,Unassigned,39,300,13932
+vglut2a,59,Inferior medulla,49,639,9741
+vglut2a,59,Intermediate medulla,23,314,8683
+vglut2a,59,Superior medulla,38,290,9762
+vglut2a,59,Superior raphe,2,44,438
+vglut2a,59,Cerebellum,7,24,4669
+vglut2a,59,Tegmentum,7,24,2173
+vglut2a,59,Nucleus isthmi,51,81,4804
+vglut2a,59,Optic tectum PV,49,199,10842
+vglut2a,59,Optic tectum neuropil,0,0,408
+vglut2a,59,Pretectum,8,35,4066
+vglut2a,59,Prethalamus,1,2,2271
+vglut2a,59,Dorsal thalamus,0,7,3652
+vglut2a,59,Habenula,0,0,906
+vglut2a,59,Hypothalamus,0,0,4872
+vglut2a,59,Subpallium,0,0,961
+vglut2a,59,Pallium,0,1,2823
+vglut2a,63,Unassigned,14,173,14047
+vglut2a,63,Inferior medulla,31,552,8900
+vglut2a,63,Intermediate medulla,8,310,9325
+vglut2a,63,Superior medulla,24,267,10077
+vglut2a,63,Superior raphe,1,84,447
+vglut2a,63,Cerebellum,6,40,5386
+vglut2a,63,Tegmentum,1,14,2297
+vglut2a,63,Nucleus isthmi,47,73,3722
+vglut2a,63,Optic tectum PV,19,182,11964
+vglut2a,63,Optic tectum neuropil,0,0,707
+vglut2a,63,Pretectum,3,27,4001
+vglut2a,63,Prethalamus,2,2,2487
+vglut2a,63,Dorsal thalamus,0,8,3592
+vglut2a,63,Habenula,0,0,1247
+vglut2a,63,Hypothalamus,2,4,5335
+vglut2a,63,Subpallium,0,0,592
+vglut2a,63,Pallium,0,0,2846
+vglut2a,71,Unassigned,169,621,16879
+vglut2a,71,Inferior medulla,14,102,7228
+vglut2a,71,Intermediate medulla,11,159,11496
+vglut2a,71,Superior medulla,31,126,11894
+vglut2a,71,Superior raphe,1,19,617
+vglut2a,71,Cerebellum,6,72,6587
+vglut2a,71,Tegmentum,1,3,2644
+vglut2a,71,Nucleus isthmi,28,45,4617
+vglut2a,71,Optic tectum PV,20,87,17384
+vglut2a,71,Optic tectum neuropil,1,1,1388
+vglut2a,71,Pretectum,1,4,4306
+vglut2a,71,Prethalamus,9,37,2731
+vglut2a,71,Dorsal thalamus,2,9,3766
+vglut2a,71,Habenula,1,1,1201
+vglut2a,71,Hypothalamus,133,363,5601
+vglut2a,71,Subpallium,17,57,626
+vglut2a,71,Pallium,282,467,3515
+sst,59,Unassigned,0,300,13932
+sst,59,Inferior medulla,2,639,9741
+sst,59,Intermediate medulla,0,314,8683
+sst,59,Superior medulla,0,290,9762
+sst,59,Superior raphe,0,44,438
+sst,59,Cerebellum,0,24,4669
+sst,59,Tegmentum,0,24,2173
+sst,59,Nucleus isthmi,0,81,4804
+sst,59,Optic tectum PV,0,199,10842
+sst,59,Optic tectum neuropil,0,0,408
+sst,59,Pretectum,0,35,4066
+sst,59,Prethalamus,0,2,2271
+sst,59,Dorsal thalamus,0,7,3652
+sst,59,Habenula,0,0,906
+sst,59,Hypothalamus,0,0,4872
+sst,59,Subpallium,0,0,961
+sst,59,Pallium,0,1,2823
+sst,63,Unassigned,0,173,14047
+sst,63,Inferior medulla,0,552,8900
+sst,63,Intermediate medulla,1,310,9325
+sst,63,Superior medulla,0,267,10077
+sst,63,Superior raphe,0,84,447
+sst,63,Cerebellum,0,40,5386
+sst,63,Tegmentum,0,14,2297
+sst,63,Nucleus isthmi,0,73,3722
+sst,63,Optic tectum PV,0,182,11964
+sst,63,Optic tectum neuropil,0,0,707
+sst,63,Pretectum,0,27,4001
+sst,63,Prethalamus,0,2,2487
+sst,63,Dorsal thalamus,0,8,3592
+sst,63,Habenula,0,0,1247
+sst,63,Hypothalamus,0,4,5335
+sst,63,Subpallium,0,0,592
+sst,63,Pallium,0,0,2846
+sst,71,Unassigned,2,621,16879
+sst,71,Inferior medulla,0,102,7228
+sst,71,Intermediate medulla,0,159,11496
+sst,71,Superior medulla,0,126,11894
+sst,71,Superior raphe,0,19,617
+sst,71,Cerebellum,0,72,6587
+sst,71,Tegmentum,0,3,2644
+sst,71,Nucleus isthmi,0,45,4617
+sst,71,Optic tectum PV,0,87,17384
+sst,71,Optic tectum neuropil,0,1,1388
+sst,71,Pretectum,0,4,4306
+sst,71,Prethalamus,0,37,2731
+sst,71,Dorsal thalamus,0,9,3766
+sst,71,Habenula,0,1,1201
+sst,71,Hypothalamus,5,363,5601
+sst,71,Subpallium,0,57,626
+sst,71,Pallium,0,467,3515
+uts1,59,Unassigned,2,300,13932
+uts1,59,Inferior medulla,2,639,9741
+uts1,59,Intermediate medulla,25,314,8683
+uts1,59,Superior medulla,61,290,9762
+uts1,59,Superior raphe,21,44,438
+uts1,59,Cerebellum,0,24,4669
+uts1,59,Tegmentum,8,24,2173
+uts1,59,Nucleus isthmi,1,81,4804
+uts1,59,Optic tectum PV,1,199,10842
+uts1,59,Optic tectum neuropil,0,0,408
+uts1,59,Pretectum,0,35,4066
+uts1,59,Prethalamus,0,2,2271
+uts1,59,Dorsal thalamus,0,7,3652
+uts1,59,Habenula,0,0,906
+uts1,59,Hypothalamus,0,0,4872
+uts1,59,Subpallium,0,0,961
+uts1,59,Pallium,0,1,2823
+uts1,63,Unassigned,2,173,14047
+uts1,63,Inferior medulla,3,552,8900
+uts1,63,Intermediate medulla,11,310,9325
+uts1,63,Superior medulla,32,267,10077
+uts1,63,Superior raphe,36,84,447
+uts1,63,Cerebellum,0,40,5386
+uts1,63,Tegmentum,3,14,2297
+uts1,63,Nucleus isthmi,0,73,3722
+uts1,63,Optic tectum PV,0,182,11964
+uts1,63,Optic tectum neuropil,0,0,707
+uts1,63,Pretectum,2,27,4001
+uts1,63,Prethalamus,0,2,2487
+uts1,63,Dorsal thalamus,0,8,3592
+uts1,63,Habenula,0,0,1247
+uts1,63,Hypothalamus,0,4,5335
+uts1,63,Subpallium,0,0,592
+uts1,63,Pallium,0,0,2846
+uts1,71,Unassigned,5,621,16879
+uts1,71,Inferior medulla,1,102,7228
+uts1,71,Intermediate medulla,12,159,11496
+uts1,71,Superior medulla,34,126,11894
+uts1,71,Superior raphe,7,19,617
+uts1,71,Cerebellum,0,72,6587
+uts1,71,Tegmentum,0,3,2644
+uts1,71,Nucleus isthmi,1,45,4617
+uts1,71,Optic tectum PV,0,87,17384
+uts1,71,Optic tectum neuropil,0,1,1388
+uts1,71,Pretectum,0,4,4306
+uts1,71,Prethalamus,0,37,2731
+uts1,71,Dorsal thalamus,0,9,3766
+uts1,71,Habenula,0,1,1201
+uts1,71,Hypothalamus,1,363,5601
+uts1,71,Subpallium,0,57,626
+uts1,71,Pallium,6,467,3515
+pou4f2,59,Unassigned,25,300,13932
+pou4f2,59,Inferior medulla,7,639,9741
+pou4f2,59,Intermediate medulla,1,314,8683
+pou4f2,59,Superior medulla,1,290,9762
+pou4f2,59,Superior raphe,1,44,438
+pou4f2,59,Cerebellum,4,24,4669
+pou4f2,59,Tegmentum,1,24,2173
+pou4f2,59,Nucleus isthmi,3,81,4804
+pou4f2,59,Optic tectum PV,33,199,10842
+pou4f2,59,Optic tectum neuropil,0,0,408
+pou4f2,59,Pretectum,4,35,4066
+pou4f2,59,Prethalamus,0,2,2271
+pou4f2,59,Dorsal thalamus,0,7,3652
+pou4f2,59,Habenula,0,0,906
+pou4f2,59,Hypothalamus,0,0,4872
+pou4f2,59,Subpallium,0,0,961
+pou4f2,59,Pallium,0,1,2823
+pou4f2,63,Unassigned,25,173,14047
+pou4f2,63,Inferior medulla,2,552,8900
+pou4f2,63,Intermediate medulla,0,310,9325
+pou4f2,63,Superior medulla,1,267,10077
+pou4f2,63,Superior raphe,0,84,447
+pou4f2,63,Cerebellum,7,40,5386
+pou4f2,63,Tegmentum,2,14,2297
+pou4f2,63,Nucleus isthmi,0,73,3722
+pou4f2,63,Optic tectum PV,67,182,11964
+pou4f2,63,Optic tectum neuropil,0,0,707
+pou4f2,63,Pretectum,8,27,4001
+pou4f2,63,Prethalamus,0,2,2487
+pou4f2,63,Dorsal thalamus,0,8,3592
+pou4f2,63,Habenula,0,0,1247
+pou4f2,63,Hypothalamus,0,4,5335
+pou4f2,63,Subpallium,0,0,592
+pou4f2,63,Pallium,0,0,2846
+pou4f2,71,Unassigned,11,621,16879
+pou4f2,71,Inferior medulla,0,102,7228
+pou4f2,71,Intermediate medulla,0,159,11496
+pou4f2,71,Superior medulla,0,126,11894
+pou4f2,71,Superior raphe,0,19,617
+pou4f2,71,Cerebellum,0,72,6587
+pou4f2,71,Tegmentum,0,3,2644
+pou4f2,71,Nucleus isthmi,0,45,4617
+pou4f2,71,Optic tectum PV,26,87,17384
+pou4f2,71,Optic tectum neuropil,0,1,1388
+pou4f2,71,Pretectum,1,4,4306
+pou4f2,71,Prethalamus,0,37,2731
+pou4f2,71,Dorsal thalamus,0,9,3766
+pou4f2,71,Habenula,1,1,1201
+pou4f2,71,Hypothalamus,0,363,5601
+pou4f2,71,Subpallium,0,57,626
+pou4f2,71,Pallium,0,467,3515
+cort,59,Unassigned,2,300,13932
+cort,59,Inferior medulla,1,639,9741
+cort,59,Intermediate medulla,4,314,8683
+cort,59,Superior medulla,1,290,9762
+cort,59,Superior raphe,0,44,438
+cort,59,Cerebellum,0,24,4669
+cort,59,Tegmentum,0,24,2173
+cort,59,Nucleus isthmi,0,81,4804
+cort,59,Optic tectum PV,0,199,10842
+cort,59,Optic tectum neuropil,0,0,408
+cort,59,Pretectum,0,35,4066
+cort,59,Prethalamus,0,2,2271
+cort,59,Dorsal thalamus,1,7,3652
+cort,59,Habenula,0,0,906
+cort,59,Hypothalamus,0,0,4872
+cort,59,Subpallium,0,0,961
+cort,59,Pallium,0,1,2823
+cort,63,Unassigned,4,173,14047
+cort,63,Inferior medulla,0,552,8900
+cort,63,Intermediate medulla,0,310,9325
+cort,63,Superior medulla,0,267,10077
+cort,63,Superior raphe,0,84,447
+cort,63,Cerebellum,2,40,5386
+cort,63,Tegmentum,0,14,2297
+cort,63,Nucleus isthmi,0,73,3722
+cort,63,Optic tectum PV,0,182,11964
+cort,63,Optic tectum neuropil,0,0,707
+cort,63,Pretectum,0,27,4001
+cort,63,Prethalamus,0,2,2487
+cort,63,Dorsal thalamus,0,8,3592
+cort,63,Habenula,0,0,1247
+cort,63,Hypothalamus,0,4,5335
+cort,63,Subpallium,0,0,592
+cort,63,Pallium,0,0,2846
+cort,71,Unassigned,109,621,16879
+cort,71,Inferior medulla,0,102,7228
+cort,71,Intermediate medulla,0,159,11496
+cort,71,Superior medulla,0,126,11894
+cort,71,Superior raphe,0,19,617
+cort,71,Cerebellum,8,72,6587
+cort,71,Tegmentum,0,3,2644
+cort,71,Nucleus isthmi,0,45,4617
+cort,71,Optic tectum PV,6,87,17384
+cort,71,Optic tectum neuropil,0,1,1388
+cort,71,Pretectum,0,4,4306
+cort,71,Prethalamus,0,37,2731
+cort,71,Dorsal thalamus,0,9,3766
+cort,71,Habenula,0,1,1201
+cort,71,Hypothalamus,4,363,5601
+cort,71,Subpallium,0,57,626
+cort,71,Pallium,0,467,3515
+nr4a2a,59,Unassigned,0,300,13932
+nr4a2a,59,Inferior medulla,3,639,9741
+nr4a2a,59,Intermediate medulla,18,314,8683
+nr4a2a,59,Superior medulla,2,290,9762
+nr4a2a,59,Superior raphe,0,44,438
+nr4a2a,59,Cerebellum,0,24,4669
+nr4a2a,59,Tegmentum,1,24,2173
+nr4a2a,59,Nucleus isthmi,1,81,4804
+nr4a2a,59,Optic tectum PV,0,199,10842
+nr4a2a,59,Optic tectum neuropil,0,0,408
+nr4a2a,59,Pretectum,0,35,4066
+nr4a2a,59,Prethalamus,0,2,2271
+nr4a2a,59,Dorsal thalamus,0,7,3652
+nr4a2a,59,Habenula,0,0,906
+nr4a2a,59,Hypothalamus,0,0,4872
+nr4a2a,59,Subpallium,0,0,961
+nr4a2a,59,Pallium,0,1,2823
+nr4a2a,63,Unassigned,0,173,14047
+nr4a2a,63,Inferior medulla,0,552,8900
+nr4a2a,63,Intermediate medulla,19,310,9325
+nr4a2a,63,Superior medulla,4,267,10077
+nr4a2a,63,Superior raphe,0,84,447
+nr4a2a,63,Cerebellum,0,40,5386
+nr4a2a,63,Tegmentum,0,14,2297
+nr4a2a,63,Nucleus isthmi,1,73,3722
+nr4a2a,63,Optic tectum PV,0,182,11964
+nr4a2a,63,Optic tectum neuropil,0,0,707
+nr4a2a,63,Pretectum,0,27,4001
+nr4a2a,63,Prethalamus,0,2,2487
+nr4a2a,63,Dorsal thalamus,1,8,3592
+nr4a2a,63,Habenula,0,0,1247
+nr4a2a,63,Hypothalamus,0,4,5335
+nr4a2a,63,Subpallium,0,0,592
+nr4a2a,63,Pallium,0,0,2846
+nr4a2a,71,Unassigned,2,621,16879
+nr4a2a,71,Inferior medulla,0,102,7228
+nr4a2a,71,Intermediate medulla,3,159,11496
+nr4a2a,71,Superior medulla,2,126,11894
+nr4a2a,71,Superior raphe,0,19,617
+nr4a2a,71,Cerebellum,0,72,6587
+nr4a2a,71,Tegmentum,0,3,2644
+nr4a2a,71,Nucleus isthmi,0,45,4617
+nr4a2a,71,Optic tectum PV,0,87,17384
+nr4a2a,71,Optic tectum neuropil,0,1,1388
+nr4a2a,71,Pretectum,0,4,4306
+nr4a2a,71,Prethalamus,0,37,2731
+nr4a2a,71,Dorsal thalamus,0,9,3766
+nr4a2a,71,Habenula,0,1,1201
+nr4a2a,71,Hypothalamus,1,363,5601
+nr4a2a,71,Subpallium,0,57,626
+nr4a2a,71,Pallium,0,467,3515
+cckb,59,Unassigned,29,300,13932
+cckb,59,Inferior medulla,3,639,9741
+cckb,59,Intermediate medulla,0,314,8683
+cckb,59,Superior medulla,3,290,9762
+cckb,59,Superior raphe,0,44,438
+cckb,59,Cerebellum,4,24,4669
+cckb,59,Tegmentum,5,24,2173
+cckb,59,Nucleus isthmi,9,81,4804
+cckb,59,Optic tectum PV,111,199,10842
+cckb,59,Optic tectum neuropil,0,0,408
+cckb,59,Pretectum,17,35,4066
+cckb,59,Prethalamus,0,2,2271
+cckb,59,Dorsal thalamus,0,7,3652
+cckb,59,Habenula,0,0,906
+cckb,59,Hypothalamus,0,0,4872
+cckb,59,Subpallium,0,0,961
+cckb,59,Pallium,0,1,2823
+cckb,63,Unassigned,30,173,14047
+cckb,63,Inferior medulla,1,552,8900
+cckb,63,Intermediate medulla,2,310,9325
+cckb,63,Superior medulla,1,267,10077
+cckb,63,Superior raphe,0,84,447
+cckb,63,Cerebellum,4,40,5386
+cckb,63,Tegmentum,6,14,2297
+cckb,63,Nucleus isthmi,8,73,3722
+cckb,63,Optic tectum PV,129,182,11964
+cckb,63,Optic tectum neuropil,0,0,707
+cckb,63,Pretectum,14,27,4001
+cckb,63,Prethalamus,0,2,2487
+cckb,63,Dorsal thalamus,0,8,3592
+cckb,63,Habenula,0,0,1247
+cckb,63,Hypothalamus,0,4,5335
+cckb,63,Subpallium,0,0,592
+cckb,63,Pallium,0,0,2846
+cckb,71,Unassigned,41,621,16879
+cckb,71,Inferior medulla,0,102,7228
+cckb,71,Intermediate medulla,0,159,11496
+cckb,71,Superior medulla,1,126,11894
+cckb,71,Superior raphe,0,19,617
+cckb,71,Cerebellum,0,72,6587
+cckb,71,Tegmentum,0,3,2644
+cckb,71,Nucleus isthmi,1,45,4617
+cckb,71,Optic tectum PV,39,87,17384
+cckb,71,Optic tectum neuropil,0,1,1388
+cckb,71,Pretectum,0,4,4306
+cckb,71,Prethalamus,0,37,2731
+cckb,71,Dorsal thalamus,0,9,3766
+cckb,71,Habenula,1,1,1201
+cckb,71,Hypothalamus,0,363,5601
+cckb,71,Subpallium,10,57,626
+cckb,71,Pallium,44,467,3515
+tph2,59,Unassigned,1,300,13932
+tph2,59,Inferior medulla,0,639,9741
+tph2,59,Intermediate medulla,0,314,8683
+tph2,59,Superior medulla,1,290,9762
+tph2,59,Superior raphe,0,44,438
+tph2,59,Cerebellum,0,24,4669
+tph2,59,Tegmentum,0,24,2173
+tph2,59,Nucleus isthmi,0,81,4804
+tph2,59,Optic tectum PV,0,199,10842
+tph2,59,Optic tectum neuropil,0,0,408
+tph2,59,Pretectum,0,35,4066
+tph2,59,Prethalamus,0,2,2271
+tph2,59,Dorsal thalamus,0,7,3652
+tph2,59,Habenula,0,0,906
+tph2,59,Hypothalamus,0,0,4872
+tph2,59,Subpallium,0,0,961
+tph2,59,Pallium,0,1,2823
+tph2,63,Unassigned,0,173,14047
+tph2,63,Inferior medulla,4,552,8900
+tph2,63,Intermediate medulla,0,310,9325
+tph2,63,Superior medulla,9,267,10077
+tph2,63,Superior raphe,12,84,447
+tph2,63,Cerebellum,0,40,5386
+tph2,63,Tegmentum,0,14,2297
+tph2,63,Nucleus isthmi,0,73,3722
+tph2,63,Optic tectum PV,0,182,11964
+tph2,63,Optic tectum neuropil,0,0,707
+tph2,63,Pretectum,0,27,4001
+tph2,63,Prethalamus,0,2,2487
+tph2,63,Dorsal thalamus,2,8,3592
+tph2,63,Habenula,0,0,1247
+tph2,63,Hypothalamus,0,4,5335
+tph2,63,Subpallium,0,0,592
+tph2,63,Pallium,0,0,2846
+tph2,71,Unassigned,0,621,16879
+tph2,71,Inferior medulla,2,102,7228
+tph2,71,Intermediate medulla,0,159,11496
+tph2,71,Superior medulla,1,126,11894
+tph2,71,Superior raphe,2,19,617
+tph2,71,Cerebellum,1,72,6587
+tph2,71,Tegmentum,0,3,2644
+tph2,71,Nucleus isthmi,0,45,4617
+tph2,71,Optic tectum PV,0,87,17384
+tph2,71,Optic tectum neuropil,0,1,1388
+tph2,71,Pretectum,0,4,4306
+tph2,71,Prethalamus,0,37,2731
+tph2,71,Dorsal thalamus,0,9,3766
+tph2,71,Habenula,0,1,1201
+tph2,71,Hypothalamus,0,363,5601
+tph2,71,Subpallium,0,57,626
+tph2,71,Pallium,0,467,3515
+chata,59,Unassigned,300,300,13932
+chata,59,Inferior medulla,639,639,9741
+chata,59,Intermediate medulla,314,314,8683
+chata,59,Superior medulla,290,290,9762
+chata,59,Superior raphe,44,44,438
+chata,59,Cerebellum,24,24,4669
+chata,59,Tegmentum,24,24,2173
+chata,59,Nucleus isthmi,81,81,4804
+chata,59,Optic tectum PV,199,199,10842
+chata,59,Optic tectum neuropil,0,0,408
+chata,59,Pretectum,35,35,4066
+chata,59,Prethalamus,2,2,2271
+chata,59,Dorsal thalamus,7,7,3652
+chata,59,Habenula,0,0,906
+chata,59,Hypothalamus,0,0,4872
+chata,59,Subpallium,0,0,961
+chata,59,Pallium,1,1,2823
+chata,63,Unassigned,173,173,14047
+chata,63,Inferior medulla,552,552,8900
+chata,63,Intermediate medulla,310,310,9325
+chata,63,Superior medulla,267,267,10077
+chata,63,Superior raphe,84,84,447
+chata,63,Cerebellum,40,40,5386
+chata,63,Tegmentum,14,14,2297
+chata,63,Nucleus isthmi,73,73,3722
+chata,63,Optic tectum PV,182,182,11964
+chata,63,Optic tectum neuropil,0,0,707
+chata,63,Pretectum,27,27,4001
+chata,63,Prethalamus,2,2,2487
+chata,63,Dorsal thalamus,8,8,3592
+chata,63,Habenula,0,0,1247
+chata,63,Hypothalamus,4,4,5335
+chata,63,Subpallium,0,0,592
+chata,63,Pallium,0,0,2846
+chata,71,Unassigned,621,621,16879
+chata,71,Inferior medulla,102,102,7228
+chata,71,Intermediate medulla,159,159,11496
+chata,71,Superior medulla,126,126,11894
+chata,71,Superior raphe,19,19,617
+chata,71,Cerebellum,72,72,6587
+chata,71,Tegmentum,3,3,2644
+chata,71,Nucleus isthmi,45,45,4617
+chata,71,Optic tectum PV,87,87,17384
+chata,71,Optic tectum neuropil,1,1,1388
+chata,71,Pretectum,4,4,4306
+chata,71,Prethalamus,37,37,2731
+chata,71,Dorsal thalamus,9,9,3766
+chata,71,Habenula,1,1,1201
+chata,71,Hypothalamus,363,363,5601
+chata,71,Subpallium,57,57,626
+chata,71,Pallium,467,467,3515
+calb2a,59,Unassigned,14,300,13932
+calb2a,59,Inferior medulla,19,639,9741
+calb2a,59,Intermediate medulla,30,314,8683
+calb2a,59,Superior medulla,23,290,9762
+calb2a,59,Superior raphe,2,44,438
+calb2a,59,Cerebellum,2,24,4669
+calb2a,59,Tegmentum,2,24,2173
+calb2a,59,Nucleus isthmi,4,81,4804
+calb2a,59,Optic tectum PV,4,199,10842
+calb2a,59,Optic tectum neuropil,0,0,408
+calb2a,59,Pretectum,1,35,4066
+calb2a,59,Prethalamus,2,2,2271
+calb2a,59,Dorsal thalamus,0,7,3652
+calb2a,59,Habenula,0,0,906
+calb2a,59,Hypothalamus,0,0,4872
+calb2a,59,Subpallium,0,0,961
+calb2a,59,Pallium,0,1,2823
+calb2a,63,Unassigned,9,173,14047
+calb2a,63,Inferior medulla,10,552,8900
+calb2a,63,Intermediate medulla,26,310,9325
+calb2a,63,Superior medulla,24,267,10077
+calb2a,63,Superior raphe,1,84,447
+calb2a,63,Cerebellum,5,40,5386
+calb2a,63,Tegmentum,0,14,2297
+calb2a,63,Nucleus isthmi,2,73,3722
+calb2a,63,Optic tectum PV,4,182,11964
+calb2a,63,Optic tectum neuropil,0,0,707
+calb2a,63,Pretectum,2,27,4001
+calb2a,63,Prethalamus,1,2,2487
+calb2a,63,Dorsal thalamus,3,8,3592
+calb2a,63,Habenula,0,0,1247
+calb2a,63,Hypothalamus,1,4,5335
+calb2a,63,Subpallium,0,0,592
+calb2a,63,Pallium,0,0,2846
+calb2a,71,Unassigned,18,621,16879
+calb2a,71,Inferior medulla,5,102,7228
+calb2a,71,Intermediate medulla,16,159,11496
+calb2a,71,Superior medulla,12,126,11894
+calb2a,71,Superior raphe,1,19,617
+calb2a,71,Cerebellum,0,72,6587
+calb2a,71,Tegmentum,1,3,2644
+calb2a,71,Nucleus isthmi,1,45,4617
+calb2a,71,Optic tectum PV,2,87,17384
+calb2a,71,Optic tectum neuropil,0,1,1388
+calb2a,71,Pretectum,0,4,4306
+calb2a,71,Prethalamus,0,37,2731
+calb2a,71,Dorsal thalamus,3,9,3766
+calb2a,71,Habenula,0,1,1201
+calb2a,71,Hypothalamus,3,363,5601
+calb2a,71,Subpallium,0,57,626
+calb2a,71,Pallium,4,467,3515
+npy,59,Unassigned,0,300,13932
+npy,59,Inferior medulla,1,639,9741
+npy,59,Intermediate medulla,1,314,8683
+npy,59,Superior medulla,0,290,9762
+npy,59,Superior raphe,0,44,438
+npy,59,Cerebellum,0,24,4669
+npy,59,Tegmentum,0,24,2173
+npy,59,Nucleus isthmi,0,81,4804
+npy,59,Optic tectum PV,0,199,10842
+npy,59,Optic tectum neuropil,0,0,408
+npy,59,Pretectum,0,35,4066
+npy,59,Prethalamus,0,2,2271
+npy,59,Dorsal thalamus,0,7,3652
+npy,59,Habenula,0,0,906
+npy,59,Hypothalamus,0,0,4872
+npy,59,Subpallium,0,0,961
+npy,59,Pallium,0,1,2823
+npy,63,Unassigned,2,173,14047
+npy,63,Inferior medulla,0,552,8900
+npy,63,Intermediate medulla,1,310,9325
+npy,63,Superior medulla,0,267,10077
+npy,63,Superior raphe,0,84,447
+npy,63,Cerebellum,3,40,5386
+npy,63,Tegmentum,0,14,2297
+npy,63,Nucleus isthmi,0,73,3722
+npy,63,Optic tectum PV,0,182,11964
+npy,63,Optic tectum neuropil,0,0,707
+npy,63,Pretectum,0,27,4001
+npy,63,Prethalamus,0,2,2487
+npy,63,Dorsal thalamus,0,8,3592
+npy,63,Habenula,0,0,1247
+npy,63,Hypothalamus,0,4,5335
+npy,63,Subpallium,0,0,592
+npy,63,Pallium,0,0,2846
+npy,71,Unassigned,137,621,16879
+npy,71,Inferior medulla,0,102,7228
+npy,71,Intermediate medulla,0,159,11496
+npy,71,Superior medulla,0,126,11894
+npy,71,Superior raphe,0,19,617
+npy,71,Cerebellum,3,72,6587
+npy,71,Tegmentum,0,3,2644
+npy,71,Nucleus isthmi,1,45,4617
+npy,71,Optic tectum PV,8,87,17384
+npy,71,Optic tectum neuropil,0,1,1388
+npy,71,Pretectum,0,4,4306
+npy,71,Prethalamus,0,37,2731
+npy,71,Dorsal thalamus,0,9,3766
+npy,71,Habenula,0,1,1201
+npy,71,Hypothalamus,2,363,5601
+npy,71,Subpallium,0,57,626
+npy,71,Pallium,1,467,3515
+gfra1a,59,Unassigned,11,300,13932
+gfra1a,59,Inferior medulla,39,639,9741
+gfra1a,59,Intermediate medulla,12,314,8683
+gfra1a,59,Superior medulla,1,290,9762
+gfra1a,59,Superior raphe,0,44,438
+gfra1a,59,Cerebellum,1,24,4669
+gfra1a,59,Tegmentum,0,24,2173
+gfra1a,59,Nucleus isthmi,1,81,4804
+gfra1a,59,Optic tectum PV,2,199,10842
+gfra1a,59,Optic tectum neuropil,0,0,408
+gfra1a,59,Pretectum,0,35,4066
+gfra1a,59,Prethalamus,0,2,2271
+gfra1a,59,Dorsal thalamus,1,7,3652
+gfra1a,59,Habenula,0,0,906
+gfra1a,59,Hypothalamus,0,0,4872
+gfra1a,59,Subpallium,0,0,961
+gfra1a,59,Pallium,0,1,2823
+gfra1a,63,Unassigned,8,173,14047
+gfra1a,63,Inferior medulla,55,552,8900
+gfra1a,63,Intermediate medulla,14,310,9325
+gfra1a,63,Superior medulla,12,267,10077
+gfra1a,63,Superior raphe,12,84,447
+gfra1a,63,Cerebellum,1,40,5386
+gfra1a,63,Tegmentum,0,14,2297
+gfra1a,63,Nucleus isthmi,3,73,3722
+gfra1a,63,Optic tectum PV,1,182,11964
+gfra1a,63,Optic tectum neuropil,0,0,707
+gfra1a,63,Pretectum,0,27,4001
+gfra1a,63,Prethalamus,0,2,2487
+gfra1a,63,Dorsal thalamus,0,8,3592
+gfra1a,63,Habenula,0,0,1247
+gfra1a,63,Hypothalamus,0,4,5335
+gfra1a,63,Subpallium,0,0,592
+gfra1a,63,Pallium,0,0,2846
+gfra1a,71,Unassigned,5,621,16879
+gfra1a,71,Inferior medulla,6,102,7228
+gfra1a,71,Intermediate medulla,12,159,11496
+gfra1a,71,Superior medulla,1,126,11894
+gfra1a,71,Superior raphe,1,19,617
+gfra1a,71,Cerebellum,0,72,6587
+gfra1a,71,Tegmentum,0,3,2644
+gfra1a,71,Nucleus isthmi,3,45,4617
+gfra1a,71,Optic tectum PV,0,87,17384
+gfra1a,71,Optic tectum neuropil,0,1,1388
+gfra1a,71,Pretectum,0,4,4306
+gfra1a,71,Prethalamus,1,37,2731
+gfra1a,71,Dorsal thalamus,0,9,3766
+gfra1a,71,Habenula,0,1,1201
+gfra1a,71,Hypothalamus,11,363,5601
+gfra1a,71,Subpallium,1,57,626
+gfra1a,71,Pallium,1,467,3515
+dmbx1a,59,Unassigned,2,300,13932
+dmbx1a,59,Inferior medulla,4,639,9741
+dmbx1a,59,Intermediate medulla,1,314,8683
+dmbx1a,59,Superior medulla,3,290,9762
+dmbx1a,59,Superior raphe,0,44,438
+dmbx1a,59,Cerebellum,0,24,4669
+dmbx1a,59,Tegmentum,0,24,2173
+dmbx1a,59,Nucleus isthmi,0,81,4804
+dmbx1a,59,Optic tectum PV,0,199,10842
+dmbx1a,59,Optic tectum neuropil,0,0,408
+dmbx1a,59,Pretectum,1,35,4066
+dmbx1a,59,Prethalamus,0,2,2271
+dmbx1a,59,Dorsal thalamus,0,7,3652
+dmbx1a,59,Habenula,0,0,906
+dmbx1a,59,Hypothalamus,0,0,4872
+dmbx1a,59,Subpallium,0,0,961
+dmbx1a,59,Pallium,0,1,2823
+dmbx1a,63,Unassigned,1,173,14047
+dmbx1a,63,Inferior medulla,3,552,8900
+dmbx1a,63,Intermediate medulla,0,310,9325
+dmbx1a,63,Superior medulla,0,267,10077
+dmbx1a,63,Superior raphe,0,84,447
+dmbx1a,63,Cerebellum,1,40,5386
+dmbx1a,63,Tegmentum,0,14,2297
+dmbx1a,63,Nucleus isthmi,0,73,3722
+dmbx1a,63,Optic tectum PV,0,182,11964
+dmbx1a,63,Optic tectum neuropil,0,0,707
+dmbx1a,63,Pretectum,0,27,4001
+dmbx1a,63,Prethalamus,0,2,2487
+dmbx1a,63,Dorsal thalamus,0,8,3592
+dmbx1a,63,Habenula,0,0,1247
+dmbx1a,63,Hypothalamus,0,4,5335
+dmbx1a,63,Subpallium,0,0,592
+dmbx1a,63,Pallium,0,0,2846
+dmbx1a,71,Unassigned,5,621,16879
+dmbx1a,71,Inferior medulla,0,102,7228
+dmbx1a,71,Intermediate medulla,0,159,11496
+dmbx1a,71,Superior medulla,0,126,11894
+dmbx1a,71,Superior raphe,0,19,617
+dmbx1a,71,Cerebellum,0,72,6587
+dmbx1a,71,Tegmentum,0,3,2644
+dmbx1a,71,Nucleus isthmi,0,45,4617
+dmbx1a,71,Optic tectum PV,1,87,17384
+dmbx1a,71,Optic tectum neuropil,0,1,1388
+dmbx1a,71,Pretectum,0,4,4306
+dmbx1a,71,Prethalamus,0,37,2731
+dmbx1a,71,Dorsal thalamus,0,9,3766
+dmbx1a,71,Habenula,0,1,1201
+dmbx1a,71,Hypothalamus,0,363,5601
+dmbx1a,71,Subpallium,0,57,626
+dmbx1a,71,Pallium,0,467,3515
+gbx2,59,Unassigned,2,300,13932
+gbx2,59,Inferior medulla,2,639,9741
+gbx2,59,Intermediate medulla,30,314,8683
+gbx2,59,Superior medulla,6,290,9762
+gbx2,59,Superior raphe,0,44,438
+gbx2,59,Cerebellum,0,24,4669
+gbx2,59,Tegmentum,1,24,2173
+gbx2,59,Nucleus isthmi,0,81,4804
+gbx2,59,Optic tectum PV,0,199,10842
+gbx2,59,Optic tectum neuropil,0,0,408
+gbx2,59,Pretectum,0,35,4066
+gbx2,59,Prethalamus,0,2,2271
+gbx2,59,Dorsal thalamus,5,7,3652
+gbx2,59,Habenula,0,0,906
+gbx2,59,Hypothalamus,0,0,4872
+gbx2,59,Subpallium,0,0,961
+gbx2,59,Pallium,0,1,2823
+gbx2,63,Unassigned,2,173,14047
+gbx2,63,Inferior medulla,1,552,8900
+gbx2,63,Intermediate medulla,14,310,9325
+gbx2,63,Superior medulla,5,267,10077
+gbx2,63,Superior raphe,0,84,447
+gbx2,63,Cerebellum,3,40,5386
+gbx2,63,Tegmentum,0,14,2297
+gbx2,63,Nucleus isthmi,0,73,3722
+gbx2,63,Optic tectum PV,0,182,11964
+gbx2,63,Optic tectum neuropil,0,0,707
+gbx2,63,Pretectum,0,27,4001
+gbx2,63,Prethalamus,0,2,2487
+gbx2,63,Dorsal thalamus,0,8,3592
+gbx2,63,Habenula,0,0,1247
+gbx2,63,Hypothalamus,0,4,5335
+gbx2,63,Subpallium,0,0,592
+gbx2,63,Pallium,0,0,2846
+gbx2,71,Unassigned,36,621,16879
+gbx2,71,Inferior medulla,1,102,7228
+gbx2,71,Intermediate medulla,4,159,11496
+gbx2,71,Superior medulla,1,126,11894
+gbx2,71,Superior raphe,0,19,617
+gbx2,71,Cerebellum,4,72,6587
+gbx2,71,Tegmentum,0,3,2644
+gbx2,71,Nucleus isthmi,0,45,4617
+gbx2,71,Optic tectum PV,4,87,17384
+gbx2,71,Optic tectum neuropil,0,1,1388
+gbx2,71,Pretectum,0,4,4306
+gbx2,71,Prethalamus,0,37,2731
+gbx2,71,Dorsal thalamus,0,9,3766
+gbx2,71,Habenula,0,1,1201
+gbx2,71,Hypothalamus,0,363,5601
+gbx2,71,Subpallium,0,57,626
+gbx2,71,Pallium,1,467,3515
+crhb,59,Unassigned,0,300,13932
+crhb,59,Inferior medulla,1,639,9741
+crhb,59,Intermediate medulla,0,314,8683
+crhb,59,Superior medulla,2,290,9762
+crhb,59,Superior raphe,0,44,438
+crhb,59,Cerebellum,0,24,4669
+crhb,59,Tegmentum,0,24,2173
+crhb,59,Nucleus isthmi,0,81,4804
+crhb,59,Optic tectum PV,0,199,10842
+crhb,59,Optic tectum neuropil,0,0,408
+crhb,59,Pretectum,0,35,4066
+crhb,59,Prethalamus,0,2,2271
+crhb,59,Dorsal thalamus,0,7,3652
+crhb,59,Habenula,0,0,906
+crhb,59,Hypothalamus,0,0,4872
+crhb,59,Subpallium,0,0,961
+crhb,59,Pallium,0,1,2823
+crhb,63,Unassigned,0,173,14047
+crhb,63,Inferior medulla,7,552,8900
+crhb,63,Intermediate medulla,1,310,9325
+crhb,63,Superior medulla,0,267,10077
+crhb,63,Superior raphe,0,84,447
+crhb,63,Cerebellum,0,40,5386
+crhb,63,Tegmentum,0,14,2297
+crhb,63,Nucleus isthmi,0,73,3722
+crhb,63,Optic tectum PV,0,182,11964
+crhb,63,Optic tectum neuropil,0,0,707
+crhb,63,Pretectum,0,27,4001
+crhb,63,Prethalamus,0,2,2487
+crhb,63,Dorsal thalamus,0,8,3592
+crhb,63,Habenula,0,0,1247
+crhb,63,Hypothalamus,0,4,5335
+crhb,63,Subpallium,0,0,592
+crhb,63,Pallium,0,0,2846
+crhb,71,Unassigned,1,621,16879
+crhb,71,Inferior medulla,0,102,7228
+crhb,71,Intermediate medulla,0,159,11496
+crhb,71,Superior medulla,1,126,11894
+crhb,71,Superior raphe,0,19,617
+crhb,71,Cerebellum,0,72,6587
+crhb,71,Tegmentum,0,3,2644
+crhb,71,Nucleus isthmi,2,45,4617
+crhb,71,Optic tectum PV,0,87,17384
+crhb,71,Optic tectum neuropil,0,1,1388
+crhb,71,Pretectum,0,4,4306
+crhb,71,Prethalamus,1,37,2731
+crhb,71,Dorsal thalamus,0,9,3766
+crhb,71,Habenula,0,1,1201
+crhb,71,Hypothalamus,2,363,5601
+crhb,71,Subpallium,1,57,626
+crhb,71,Pallium,11,467,3515
+nefma,59,Unassigned,73,300,13932
+nefma,59,Inferior medulla,112,639,9741
+nefma,59,Intermediate medulla,102,314,8683
+nefma,59,Superior medulla,93,290,9762
+nefma,59,Superior raphe,21,44,438
+nefma,59,Cerebellum,0,24,4669
+nefma,59,Tegmentum,9,24,2173
+nefma,59,Nucleus isthmi,4,81,4804
+nefma,59,Optic tectum PV,0,199,10842
+nefma,59,Optic tectum neuropil,0,0,408
+nefma,59,Pretectum,0,35,4066
+nefma,59,Prethalamus,0,2,2271
+nefma,59,Dorsal thalamus,0,7,3652
+nefma,59,Habenula,0,0,906
+nefma,59,Hypothalamus,0,0,4872
+nefma,59,Subpallium,0,0,961
+nefma,59,Pallium,0,1,2823
+nefma,63,Unassigned,31,173,14047
+nefma,63,Inferior medulla,109,552,8900
+nefma,63,Intermediate medulla,97,310,9325
+nefma,63,Superior medulla,90,267,10077
+nefma,63,Superior raphe,40,84,447
+nefma,63,Cerebellum,0,40,5386
+nefma,63,Tegmentum,6,14,2297
+nefma,63,Nucleus isthmi,3,73,3722
+nefma,63,Optic tectum PV,0,182,11964
+nefma,63,Optic tectum neuropil,0,0,707
+nefma,63,Pretectum,1,27,4001
+nefma,63,Prethalamus,0,2,2487
+nefma,63,Dorsal thalamus,0,8,3592
+nefma,63,Habenula,0,0,1247
+nefma,63,Hypothalamus,0,4,5335
+nefma,63,Subpallium,0,0,592
+nefma,63,Pallium,0,0,2846
+nefma,71,Unassigned,23,621,16879
+nefma,71,Inferior medulla,63,102,7228
+nefma,71,Intermediate medulla,89,159,11496
+nefma,71,Superior medulla,65,126,11894
+nefma,71,Superior raphe,15,19,617
+nefma,71,Cerebellum,0,72,6587
+nefma,71,Tegmentum,0,3,2644
+nefma,71,Nucleus isthmi,7,45,4617
+nefma,71,Optic tectum PV,0,87,17384
+nefma,71,Optic tectum neuropil,0,1,1388
+nefma,71,Pretectum,0,4,4306
+nefma,71,Prethalamus,5,37,2731
+nefma,71,Dorsal thalamus,0,9,3766
+nefma,71,Habenula,0,1,1201
+nefma,71,Hypothalamus,1,363,5601
+nefma,71,Subpallium,0,57,626
+nefma,71,Pallium,1,467,3515
+chodl,59,Unassigned,13,300,13932
+chodl,59,Inferior medulla,86,639,9741
+chodl,59,Intermediate medulla,13,314,8683
+chodl,59,Superior medulla,1,290,9762
+chodl,59,Superior raphe,0,44,438
+chodl,59,Cerebellum,0,24,4669
+chodl,59,Tegmentum,1,24,2173
+chodl,59,Nucleus isthmi,1,81,4804
+chodl,59,Optic tectum PV,2,199,10842
+chodl,59,Optic tectum neuropil,0,0,408
+chodl,59,Pretectum,0,35,4066
+chodl,59,Prethalamus,0,2,2271
+chodl,59,Dorsal thalamus,0,7,3652
+chodl,59,Habenula,0,0,906
+chodl,59,Hypothalamus,0,0,4872
+chodl,59,Subpallium,0,0,961
+chodl,59,Pallium,0,1,2823
+chodl,63,Unassigned,2,173,14047
+chodl,63,Inferior medulla,36,552,8900
+chodl,63,Intermediate medulla,3,310,9325
+chodl,63,Superior medulla,1,267,10077
+chodl,63,Superior raphe,0,84,447
+chodl,63,Cerebellum,0,40,5386
+chodl,63,Tegmentum,0,14,2297
+chodl,63,Nucleus isthmi,0,73,3722
+chodl,63,Optic tectum PV,1,182,11964
+chodl,63,Optic tectum neuropil,0,0,707
+chodl,63,Pretectum,1,27,4001
+chodl,63,Prethalamus,0,2,2487
+chodl,63,Dorsal thalamus,0,8,3592
+chodl,63,Habenula,0,0,1247
+chodl,63,Hypothalamus,0,4,5335
+chodl,63,Subpallium,0,0,592
+chodl,63,Pallium,0,0,2846
+chodl,71,Unassigned,17,621,16879
+chodl,71,Inferior medulla,13,102,7228
+chodl,71,Intermediate medulla,2,159,11496
+chodl,71,Superior medulla,0,126,11894
+chodl,71,Superior raphe,0,19,617
+chodl,71,Cerebellum,3,72,6587
+chodl,71,Tegmentum,0,3,2644
+chodl,71,Nucleus isthmi,0,45,4617
+chodl,71,Optic tectum PV,1,87,17384
+chodl,71,Optic tectum neuropil,0,1,1388
+chodl,71,Pretectum,0,4,4306
+chodl,71,Prethalamus,4,37,2731
+chodl,71,Dorsal thalamus,0,9,3766
+chodl,71,Habenula,0,1,1201
+chodl,71,Hypothalamus,0,363,5601
+chodl,71,Subpallium,0,57,626
+chodl,71,Pallium,1,467,3515
+pyya,59,Unassigned,2,300,13932
+pyya,59,Inferior medulla,7,639,9741
+pyya,59,Intermediate medulla,0,314,8683
+pyya,59,Superior medulla,1,290,9762
+pyya,59,Superior raphe,0,44,438
+pyya,59,Cerebellum,0,24,4669
+pyya,59,Tegmentum,0,24,2173
+pyya,59,Nucleus isthmi,2,81,4804
+pyya,59,Optic tectum PV,0,199,10842
+pyya,59,Optic tectum neuropil,0,0,408
+pyya,59,Pretectum,0,35,4066
+pyya,59,Prethalamus,0,2,2271
+pyya,59,Dorsal thalamus,0,7,3652
+pyya,59,Habenula,0,0,906
+pyya,59,Hypothalamus,0,0,4872
+pyya,59,Subpallium,0,0,961
+pyya,59,Pallium,0,1,2823
+pyya,63,Unassigned,1,173,14047
+pyya,63,Inferior medulla,0,552,8900
+pyya,63,Intermediate medulla,2,310,9325
+pyya,63,Superior medulla,0,267,10077
+pyya,63,Superior raphe,0,84,447
+pyya,63,Cerebellum,1,40,5386
+pyya,63,Tegmentum,0,14,2297
+pyya,63,Nucleus isthmi,0,73,3722
+pyya,63,Optic tectum PV,0,182,11964
+pyya,63,Optic tectum neuropil,0,0,707
+pyya,63,Pretectum,0,27,4001
+pyya,63,Prethalamus,0,2,2487
+pyya,63,Dorsal thalamus,0,8,3592
+pyya,63,Habenula,0,0,1247
+pyya,63,Hypothalamus,0,4,5335
+pyya,63,Subpallium,0,0,592
+pyya,63,Pallium,0,0,2846
+pyya,71,Unassigned,7,621,16879
+pyya,71,Inferior medulla,1,102,7228
+pyya,71,Intermediate medulla,2,159,11496
+pyya,71,Superior medulla,0,126,11894
+pyya,71,Superior raphe,0,19,617
+pyya,71,Cerebellum,0,72,6587
+pyya,71,Tegmentum,0,3,2644
+pyya,71,Nucleus isthmi,0,45,4617
+pyya,71,Optic tectum PV,0,87,17384
+pyya,71,Optic tectum neuropil,0,1,1388
+pyya,71,Pretectum,0,4,4306
+pyya,71,Prethalamus,0,37,2731
+pyya,71,Dorsal thalamus,0,9,3766
+pyya,71,Habenula,0,1,1201
+pyya,71,Hypothalamus,0,363,5601
+pyya,71,Subpallium,0,57,626
+pyya,71,Pallium,5,467,3515
+zic2a,59,Unassigned,1,300,13932
+zic2a,59,Inferior medulla,0,639,9741
+zic2a,59,Intermediate medulla,1,314,8683
+zic2a,59,Superior medulla,2,290,9762
+zic2a,59,Superior raphe,1,44,438
+zic2a,59,Cerebellum,0,24,4669
+zic2a,59,Tegmentum,0,24,2173
+zic2a,59,Nucleus isthmi,0,81,4804
+zic2a,59,Optic tectum PV,1,199,10842
+zic2a,59,Optic tectum neuropil,0,0,408
+zic2a,59,Pretectum,0,35,4066
+zic2a,59,Prethalamus,0,2,2271
+zic2a,59,Dorsal thalamus,0,7,3652
+zic2a,59,Habenula,0,0,906
+zic2a,59,Hypothalamus,0,0,4872
+zic2a,59,Subpallium,0,0,961
+zic2a,59,Pallium,0,1,2823
+zic2a,63,Unassigned,0,173,14047
+zic2a,63,Inferior medulla,0,552,8900
+zic2a,63,Intermediate medulla,3,310,9325
+zic2a,63,Superior medulla,0,267,10077
+zic2a,63,Superior raphe,0,84,447
+zic2a,63,Cerebellum,0,40,5386
+zic2a,63,Tegmentum,0,14,2297
+zic2a,63,Nucleus isthmi,0,73,3722
+zic2a,63,Optic tectum PV,0,182,11964
+zic2a,63,Optic tectum neuropil,0,0,707
+zic2a,63,Pretectum,0,27,4001
+zic2a,63,Prethalamus,0,2,2487
+zic2a,63,Dorsal thalamus,0,8,3592
+zic2a,63,Habenula,0,0,1247
+zic2a,63,Hypothalamus,0,4,5335
+zic2a,63,Subpallium,0,0,592
+zic2a,63,Pallium,0,0,2846
+zic2a,71,Unassigned,14,621,16879
+zic2a,71,Inferior medulla,0,102,7228
+zic2a,71,Intermediate medulla,0,159,11496
+zic2a,71,Superior medulla,1,126,11894
+zic2a,71,Superior raphe,0,19,617
+zic2a,71,Cerebellum,1,72,6587
+zic2a,71,Tegmentum,0,3,2644
+zic2a,71,Nucleus isthmi,0,45,4617
+zic2a,71,Optic tectum PV,0,87,17384
+zic2a,71,Optic tectum neuropil,0,1,1388
+zic2a,71,Pretectum,0,4,4306
+zic2a,71,Prethalamus,0,37,2731
+zic2a,71,Dorsal thalamus,0,9,3766
+zic2a,71,Habenula,1,1,1201
+zic2a,71,Hypothalamus,0,363,5601
+zic2a,71,Subpallium,0,57,626
+zic2a,71,Pallium,2,467,3515
+th,59,Unassigned,1,300,13932
+th,59,Inferior medulla,1,639,9741
+th,59,Intermediate medulla,0,314,8683
+th,59,Superior medulla,3,290,9762
+th,59,Superior raphe,0,44,438
+th,59,Cerebellum,0,24,4669
+th,59,Tegmentum,0,24,2173
+th,59,Nucleus isthmi,2,81,4804
+th,59,Optic tectum PV,0,199,10842
+th,59,Optic tectum neuropil,0,0,408
+th,59,Pretectum,0,35,4066
+th,59,Prethalamus,0,2,2271
+th,59,Dorsal thalamus,0,7,3652
+th,59,Habenula,0,0,906
+th,59,Hypothalamus,0,0,4872
+th,59,Subpallium,0,0,961
+th,59,Pallium,0,1,2823
+th,63,Unassigned,1,173,14047
+th,63,Inferior medulla,1,552,8900
+th,63,Intermediate medulla,1,310,9325
+th,63,Superior medulla,2,267,10077
+th,63,Superior raphe,0,84,447
+th,63,Cerebellum,0,40,5386
+th,63,Tegmentum,0,14,2297
+th,63,Nucleus isthmi,0,73,3722
+th,63,Optic tectum PV,0,182,11964
+th,63,Optic tectum neuropil,0,0,707
+th,63,Pretectum,0,27,4001
+th,63,Prethalamus,0,2,2487
+th,63,Dorsal thalamus,0,8,3592
+th,63,Habenula,0,0,1247
+th,63,Hypothalamus,0,4,5335
+th,63,Subpallium,0,0,592
+th,63,Pallium,0,0,2846
+th,71,Unassigned,4,621,16879
+th,71,Inferior medulla,0,102,7228
+th,71,Intermediate medulla,4,159,11496
+th,71,Superior medulla,7,126,11894
+th,71,Superior raphe,0,19,617
+th,71,Cerebellum,1,72,6587
+th,71,Tegmentum,0,3,2644
+th,71,Nucleus isthmi,0,45,4617
+th,71,Optic tectum PV,0,87,17384
+th,71,Optic tectum neuropil,0,1,1388
+th,71,Pretectum,0,4,4306
+th,71,Prethalamus,5,37,2731
+th,71,Dorsal thalamus,0,9,3766
+th,71,Habenula,0,1,1201
+th,71,Hypothalamus,2,363,5601
+th,71,Subpallium,0,57,626
+th,71,Pallium,1,467,3515
+pdyn,59,Unassigned,7,300,13932
+pdyn,59,Inferior medulla,6,639,9741
+pdyn,59,Intermediate medulla,6,314,8683
+pdyn,59,Superior medulla,13,290,9762
+pdyn,59,Superior raphe,0,44,438
+pdyn,59,Cerebellum,0,24,4669
+pdyn,59,Tegmentum,1,24,2173
+pdyn,59,Nucleus isthmi,1,81,4804
+pdyn,59,Optic tectum PV,0,199,10842
+pdyn,59,Optic tectum neuropil,0,0,408
+pdyn,59,Pretectum,0,35,4066
+pdyn,59,Prethalamus,1,2,2271
+pdyn,59,Dorsal thalamus,0,7,3652
+pdyn,59,Habenula,0,0,906
+pdyn,59,Hypothalamus,0,0,4872
+pdyn,59,Subpallium,0,0,961
+pdyn,59,Pallium,1,1,2823
+pdyn,63,Unassigned,1,173,14047
+pdyn,63,Inferior medulla,3,552,8900
+pdyn,63,Intermediate medulla,9,310,9325
+pdyn,63,Superior medulla,6,267,10077
+pdyn,63,Superior raphe,5,84,447
+pdyn,63,Cerebellum,0,40,5386
+pdyn,63,Tegmentum,0,14,2297
+pdyn,63,Nucleus isthmi,0,73,3722
+pdyn,63,Optic tectum PV,1,182,11964
+pdyn,63,Optic tectum neuropil,0,0,707
+pdyn,63,Pretectum,0,27,4001
+pdyn,63,Prethalamus,1,2,2487
+pdyn,63,Dorsal thalamus,0,8,3592
+pdyn,63,Habenula,0,0,1247
+pdyn,63,Hypothalamus,1,4,5335
+pdyn,63,Subpallium,0,0,592
+pdyn,63,Pallium,0,0,2846
+pdyn,71,Unassigned,8,621,16879
+pdyn,71,Inferior medulla,1,102,7228
+pdyn,71,Intermediate medulla,10,159,11496
+pdyn,71,Superior medulla,4,126,11894
+pdyn,71,Superior raphe,1,19,617
+pdyn,71,Cerebellum,0,72,6587
+pdyn,71,Tegmentum,0,3,2644
+pdyn,71,Nucleus isthmi,2,45,4617
+pdyn,71,Optic tectum PV,0,87,17384
+pdyn,71,Optic tectum neuropil,0,1,1388
+pdyn,71,Pretectum,0,4,4306
+pdyn,71,Prethalamus,4,37,2731
+pdyn,71,Dorsal thalamus,0,9,3766
+pdyn,71,Habenula,1,1,1201
+pdyn,71,Hypothalamus,44,363,5601
+pdyn,71,Subpallium,0,57,626
+pdyn,71,Pallium,1,467,3515
+tbr1b,59,Unassigned,0,300,13932
+tbr1b,59,Inferior medulla,0,639,9741
+tbr1b,59,Intermediate medulla,0,314,8683
+tbr1b,59,Superior medulla,0,290,9762
+tbr1b,59,Superior raphe,0,44,438
+tbr1b,59,Cerebellum,0,24,4669
+tbr1b,59,Tegmentum,0,24,2173
+tbr1b,59,Nucleus isthmi,0,81,4804
+tbr1b,59,Optic tectum PV,0,199,10842
+tbr1b,59,Optic tectum neuropil,0,0,408
+tbr1b,59,Pretectum,0,35,4066
+tbr1b,59,Prethalamus,0,2,2271
+tbr1b,59,Dorsal thalamus,0,7,3652
+tbr1b,59,Habenula,0,0,906
+tbr1b,59,Hypothalamus,0,0,4872
+tbr1b,59,Subpallium,0,0,961
+tbr1b,59,Pallium,0,1,2823
+tbr1b,63,Unassigned,0,173,14047
+tbr1b,63,Inferior medulla,1,552,8900
+tbr1b,63,Intermediate medulla,0,310,9325
+tbr1b,63,Superior medulla,0,267,10077
+tbr1b,63,Superior raphe,0,84,447
+tbr1b,63,Cerebellum,0,40,5386
+tbr1b,63,Tegmentum,0,14,2297
+tbr1b,63,Nucleus isthmi,0,73,3722
+tbr1b,63,Optic tectum PV,0,182,11964
+tbr1b,63,Optic tectum neuropil,0,0,707
+tbr1b,63,Pretectum,0,27,4001
+tbr1b,63,Prethalamus,0,2,2487
+tbr1b,63,Dorsal thalamus,0,8,3592
+tbr1b,63,Habenula,0,0,1247
+tbr1b,63,Hypothalamus,0,4,5335
+tbr1b,63,Subpallium,0,0,592
+tbr1b,63,Pallium,0,0,2846
+tbr1b,71,Unassigned,77,621,16879
+tbr1b,71,Inferior medulla,0,102,7228
+tbr1b,71,Intermediate medulla,0,159,11496
+tbr1b,71,Superior medulla,0,126,11894
+tbr1b,71,Superior raphe,0,19,617
+tbr1b,71,Cerebellum,0,72,6587
+tbr1b,71,Tegmentum,0,3,2644
+tbr1b,71,Nucleus isthmi,0,45,4617
+tbr1b,71,Optic tectum PV,0,87,17384
+tbr1b,71,Optic tectum neuropil,0,1,1388
+tbr1b,71,Pretectum,0,4,4306
+tbr1b,71,Prethalamus,0,37,2731
+tbr1b,71,Dorsal thalamus,0,9,3766
+tbr1b,71,Habenula,0,1,1201
+tbr1b,71,Hypothalamus,0,363,5601
+tbr1b,71,Subpallium,9,57,626
+tbr1b,71,Pallium,230,467,3515
+otpa,59,Unassigned,5,300,13932
+otpa,59,Inferior medulla,2,639,9741
+otpa,59,Intermediate medulla,4,314,8683
+otpa,59,Superior medulla,0,290,9762
+otpa,59,Superior raphe,0,44,438
+otpa,59,Cerebellum,0,24,4669
+otpa,59,Tegmentum,0,24,2173
+otpa,59,Nucleus isthmi,0,81,4804
+otpa,59,Optic tectum PV,0,199,10842
+otpa,59,Optic tectum neuropil,0,0,408
+otpa,59,Pretectum,0,35,4066
+otpa,59,Prethalamus,0,2,2271
+otpa,59,Dorsal thalamus,0,7,3652
+otpa,59,Habenula,0,0,906
+otpa,59,Hypothalamus,0,0,4872
+otpa,59,Subpallium,0,0,961
+otpa,59,Pallium,0,1,2823
+otpa,63,Unassigned,0,173,14047
+otpa,63,Inferior medulla,1,552,8900
+otpa,63,Intermediate medulla,3,310,9325
+otpa,63,Superior medulla,0,267,10077
+otpa,63,Superior raphe,0,84,447
+otpa,63,Cerebellum,1,40,5386
+otpa,63,Tegmentum,0,14,2297
+otpa,63,Nucleus isthmi,0,73,3722
+otpa,63,Optic tectum PV,0,182,11964
+otpa,63,Optic tectum neuropil,0,0,707
+otpa,63,Pretectum,0,27,4001
+otpa,63,Prethalamus,0,2,2487
+otpa,63,Dorsal thalamus,0,8,3592
+otpa,63,Habenula,0,0,1247
+otpa,63,Hypothalamus,0,4,5335
+otpa,63,Subpallium,0,0,592
+otpa,63,Pallium,0,0,2846
+otpa,71,Unassigned,50,621,16879
+otpa,71,Inferior medulla,1,102,7228
+otpa,71,Intermediate medulla,1,159,11496
+otpa,71,Superior medulla,0,126,11894
+otpa,71,Superior raphe,0,19,617
+otpa,71,Cerebellum,3,72,6587
+otpa,71,Tegmentum,0,3,2644
+otpa,71,Nucleus isthmi,0,45,4617
+otpa,71,Optic tectum PV,0,87,17384
+otpa,71,Optic tectum neuropil,0,1,1388
+otpa,71,Pretectum,0,4,4306
+otpa,71,Prethalamus,4,37,2731
+otpa,71,Dorsal thalamus,0,9,3766
+otpa,71,Habenula,0,1,1201
+otpa,71,Hypothalamus,16,363,5601
+otpa,71,Subpallium,0,57,626
+otpa,71,Pallium,0,467,3515
+esrrb,59,Unassigned,10,300,13932
+esrrb,59,Inferior medulla,35,639,9741
+esrrb,59,Intermediate medulla,68,314,8683
+esrrb,59,Superior medulla,49,290,9762
+esrrb,59,Superior raphe,6,44,438
+esrrb,59,Cerebellum,0,24,4669
+esrrb,59,Tegmentum,0,24,2173
+esrrb,59,Nucleus isthmi,0,81,4804
+esrrb,59,Optic tectum PV,0,199,10842
+esrrb,59,Optic tectum neuropil,0,0,408
+esrrb,59,Pretectum,0,35,4066
+esrrb,59,Prethalamus,0,2,2271
+esrrb,59,Dorsal thalamus,0,7,3652
+esrrb,59,Habenula,0,0,906
+esrrb,59,Hypothalamus,0,0,4872
+esrrb,59,Subpallium,0,0,961
+esrrb,59,Pallium,0,1,2823
+esrrb,63,Unassigned,11,173,14047
+esrrb,63,Inferior medulla,22,552,8900
+esrrb,63,Intermediate medulla,54,310,9325
+esrrb,63,Superior medulla,39,267,10077
+esrrb,63,Superior raphe,10,84,447
+esrrb,63,Cerebellum,0,40,5386
+esrrb,63,Tegmentum,1,14,2297
+esrrb,63,Nucleus isthmi,1,73,3722
+esrrb,63,Optic tectum PV,0,182,11964
+esrrb,63,Optic tectum neuropil,0,0,707
+esrrb,63,Pretectum,1,27,4001
+esrrb,63,Prethalamus,0,2,2487
+esrrb,63,Dorsal thalamus,0,8,3592
+esrrb,63,Habenula,0,0,1247
+esrrb,63,Hypothalamus,0,4,5335
+esrrb,63,Subpallium,0,0,592
+esrrb,63,Pallium,0,0,2846
+esrrb,71,Unassigned,11,621,16879
+esrrb,71,Inferior medulla,22,102,7228
+esrrb,71,Intermediate medulla,46,159,11496
+esrrb,71,Superior medulla,19,126,11894
+esrrb,71,Superior raphe,5,19,617
+esrrb,71,Cerebellum,0,72,6587
+esrrb,71,Tegmentum,0,3,2644
+esrrb,71,Nucleus isthmi,0,45,4617
+esrrb,71,Optic tectum PV,0,87,17384
+esrrb,71,Optic tectum neuropil,0,1,1388
+esrrb,71,Pretectum,0,4,4306
+esrrb,71,Prethalamus,2,37,2731
+esrrb,71,Dorsal thalamus,0,9,3766
+esrrb,71,Habenula,0,1,1201
+esrrb,71,Hypothalamus,0,363,5601
+esrrb,71,Subpallium,0,57,626
+esrrb,71,Pallium,1,467,3515

@@ -1,0 +1,30 @@
+{
+  "retrieved": "2026-09-29",
+  "source": "https://figshare.com/s/d1d19b105c4f74865c32",
+  "license": "CC BY 4.0",
+  "authors": "Marquez-Legorreta, Fleishman, Hesselink et al. (2026), WARP",
+  "original_rows": 306108,
+  "included_rows": 274455,
+  "excluded_nonfinite_coordinates": 31653,
+  "mapping_repository": "https://github.com/JaneliaSciComp/warp-atlas-viewer",
+  "mapping_commit": "0f9451756b0a0bf3d051fea0f40789992a17e783",
+  "note": "Gene order and focal-region labels follow the documented reference viewer mapping; independent implementation. This is external reference data, not Hernandez-Nunez Lab data. Source authors share the CC-BY dataset through a publicly linked Figshare private-share URL.",
+  "files": {
+    "Brain_reg": {
+      "url": "https://figshare.com/ndownloader/files/57981580?private_link=d1d19b105c4f74865c32",
+      "sha256": "070fe83651dfc1ffa81f0ecdd1ec0117dffa7948271432878703dfa000a771ae"
+    },
+    "fish_id": {
+      "url": "https://figshare.com/ndownloader/files/57981601?private_link=d1d19b105c4f74865c32",
+      "sha256": "2cc14864797576a23abc7f2eb0d60dcbb81d7bcfbbb017eb9ddfd612187417d3"
+    },
+    "Coords_All": {
+      "url": "https://figshare.com/ndownloader/files/57981640?private_link=d1d19b105c4f74865c32",
+      "sha256": "6242e7590902fcf6914ff291276d197090416c0dd4678644fe84065c60fdf94c"
+    },
+    "BinaryGenes_All": {
+      "url": "https://figshare.com/ndownloader/files/57981757?private_link=d1d19b105c4f74865c32",
+      "sha256": "d9c511f93a9ce755a51a7502f0b9b311b067604983b70477196c65247126ead0"
+    }
+  }
+}
