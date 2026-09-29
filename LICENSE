@@ -1,11 +1,56 @@
-MIT License — new analysis and interface code only
+MIT License — new code and MIT-licensed author-code adaptations
 
 Copyright (c) 2026 Cathy Liu
+Copyright (c) 2025 Ben James (adapted gutBrainPipeline components)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-The WARP-derived data in cells.npz, data.js and marker_counts.csv are separately licensed CC BY 4.0 by their source authors, Marquez-Legorreta, Fleishman, Hesselink et al. See README.md and provenance.json for attribution and changes.
+THIRD-PARTY CODE
+
+Author pipeline: https://github.com/benJames1212/gutBrainPipeline
+Pinned commit: 4c62612ecd540ec786c43fe9ce67cc78259a6ec1
+Copyright (c) 2025 Ben James; MIT license.
+The full original notice is in repro/UPSTREAM_LICENSE. Extraction executes
+upstream load, pullCenters, and windowed_variance. Lag construction is adapted
+and equivalence-tested. These credits do not imply author endorsement.
+
+DATA ARE SEPARATELY LICENSED CC BY 4.0
+
+Source data and derived subsets, metrics, traces, and provenance are not
+relicensed under MIT. They remain Creative Commons Attribution 4.0:
+https://creativecommons.org/licenses/by/4.0/
+
+Dataset attribution:
+Weiyu Chen (2026), Whole-brain, all-optical interrogation of neuronal dynamics
+underlying gut and vascular interoception in zebrafish, Janelia Figshare.
+https://doi.org/10.25378/janelia.31967640.v1
+
+Associated publication:
+Chen, James, Ruetten et al. (2026), Nature Communications 17, 9881.
+https://doi.org/10.1038/s41467-026-76242-8
+
+Derivative changes by Cathy Liu with coding assistance include response-blind
+ROI subsetting, centroids, stimulus/motor/visual alignment, signal conversion
+and binning, model fitting, held-out-trial and sensitivity analysis, and
+interactive presentation. README.md, provenance.json, and the recording
+manifests specify transformations and limitations.
+
+These licenses grant no institutional endorsement, biological validation,
+or claim of affiliation with the source authors, Hernandez-Nunez Lab,
+Janelia Research Campus, or Stanford University.

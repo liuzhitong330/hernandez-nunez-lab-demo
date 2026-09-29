@@ -1,30 +1,51 @@
 {
-  "retrieved": "2026-09-29",
-  "source": "https://figshare.com/s/d1d19b105c4f74865c32",
-  "license": "CC BY 4.0",
-  "authors": "Marquez-Legorreta, Fleishman, Hesselink et al. (2026), WARP",
-  "original_rows": 306108,
-  "included_rows": 274455,
-  "excluded_nonfinite_coordinates": 31653,
-  "mapping_repository": "https://github.com/JaneliaSciComp/warp-atlas-viewer",
-  "mapping_commit": "0f9451756b0a0bf3d051fea0f40789992a17e783",
-  "note": "Gene order and focal-region labels follow the documented reference viewer mapping; independent implementation. This is external reference data, not Hernandez-Nunez Lab data. Source authors share the CC-BY dataset through a publicly linked Figshare private-share URL.",
-  "files": {
-    "Brain_reg": {
-      "url": "https://figshare.com/ndownloader/files/57981580?private_link=d1d19b105c4f74865c32",
-      "sha256": "070fe83651dfc1ffa81f0ecdd1ec0117dffa7948271432878703dfa000a771ae"
+  "version": 2,
+  "date": "2026-09-29",
+  "dataset": "https://doi.org/10.25378/janelia.31967640.v1",
+  "data_license": "CC BY 4.0",
+  "publication": "https://www.nature.com/articles/s41467-026-76242-8",
+  "code": "https://github.com/benJames1212/gutBrainPipeline",
+  "commit": "4c62612ecd540ec786c43fe9ce67cc78259a6ec1",
+  "source_code_license": "MIT",
+  "records": [
+    {
+      "recording": "blood_glucose_fish1",
+      "label": "Blood D-glucose \u00b7 fish 1",
+      "sampled_cells": 1023,
+      "source_n_cells": 203231,
+      "manifest": "repro/blood_glucose_fish1_manifest.json",
+      "minimal_subset": "repro/blood_glucose_fish1_subset.npz",
+      "sha256": "c05ba5d308429d628a6e4a2362142a7c3eb65417ce86a001a194b2ba094d3cf7",
+      "position_mapping": "unverified",
+      "visual_modulation_present": false
     },
-    "fish_id": {
-      "url": "https://figshare.com/ndownloader/files/57981601?private_link=d1d19b105c4f74865c32",
-      "sha256": "2cc14864797576a23abc7f2eb0d60dcbb81d7bcfbbb017eb9ddfd612187417d3"
+    {
+      "recording": "blood_glucose_fish2",
+      "label": "Blood D-glucose \u00b7 fish 2",
+      "sampled_cells": 1024,
+      "source_n_cells": 177421,
+      "manifest": "repro/blood_glucose_fish2_manifest.json",
+      "minimal_subset": "repro/blood_glucose_fish2_subset.npz",
+      "sha256": "861495c7960b0031c93951a571cde25dc111ddfd3d0a9d7898513d6c43241a25",
+      "position_mapping": "unverified",
+      "visual_modulation_present": false
     },
-    "Coords_All": {
-      "url": "https://figshare.com/ndownloader/files/57981640?private_link=d1d19b105c4f74865c32",
-      "sha256": "6242e7590902fcf6914ff291276d197090416c0dd4678644fe84065c60fdf94c"
-    },
-    "BinaryGenes_All": {
-      "url": "https://figshare.com/ndownloader/files/57981757?private_link=d1d19b105c4f74865c32",
-      "sha256": "d9c511f93a9ce755a51a7502f0b9b311b067604983b70477196c65247126ead0"
+    {
+      "recording": "glucose_fish3",
+      "label": "Gut D-glucose \u00b7 fish 3",
+      "sampled_cells": 1022,
+      "source_n_cells": 135111,
+      "manifest": "repro/glucose_fish3_manifest.json",
+      "minimal_subset": "repro/glucose_fish3_subset.npz",
+      "sha256": "4660776a0fa726ef413244739149ab49c269a4ab8d1554e36f51de6d04452168",
+      "position_mapping": "unverified",
+      "visual_modulation_present": true
     }
-  }
+  ],
+  "ownership": "External Janelia dataset; not Hernandez-Nunez Lab data",
+  "limitations": [
+    "Stimulus-code organ mapping is not deposited; no nutrient-specific biological classification.",
+    "Discovery ranks are frozen before testing; interactive inspection does not constitute prospective validation.",
+    "Native voxel-space ROI centroids; z display expanded 4x, no registered brain atlas or inferred connections."
+  ]
 }

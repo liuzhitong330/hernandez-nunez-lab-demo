@@ -1,33 +1,131 @@
-(function(){'use strict';
- /* Independent analysis UI. Counts are computed by analyze.py, not invented. */
- const d=window.PANEL_DATA, $=id=>document.getElementById(id), fmt=x=>Number.isFinite(x)?x.toFixed(1)+'%':'not estimable';
- const sum=a=>a.reduce((x,y)=>x+y,0), ns='http://www.w3.org/2000/svg';
- d.genes.forEach((g,i)=>{const o=document.createElement('option');o.value=i;o.textContent=g==='chata'?'chata alone (baseline)':g;$('marker').append(o);});
- $('marker').value=d.genes.indexOf('esrrb');
- function region(){return $('region').value==='medulla'?[1,2,3]:[+$('region').value];}
- function stats(g){return d.fish.map((f,i)=>{const n=sum(region().map(r=>d.counts[g][i][r])), all=sum(d.counts[g][i]), base=sum(region().map(r=>d.counts[d.chataIndex][i][r]));return {fish:f,n,all,base,p:all?100*n/all:NaN,c:base?100*n/base:NaN};});}
- function eligible(s,ids=[0,1,2]){return ids.every(i=>s[i].n>=+$('mincells').value&&s[i].c>=+$('coverage').value&&Number.isFinite(s[i].p));}
- function ranks(ids=[0,1,2]){return d.genes.map((name,g)=>({name,g,s:stats(g)})).filter(x=>x.g!==d.chataIndex&&eligible(x.s,ids)).sort((a,b)=>Math.min(...ids.map(i=>b.s[i].p))-Math.min(...ids.map(i=>a.s[i].p))||a.name.localeCompare(b.name));}
- function el(tag,attrs={},text){const e=document.createElementNS(ns,tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));if(text!==undefined)e.textContent=text;return e;}
- function chart(s){const svg=$('hero-viz');svg.replaceChildren();const x=v=>58+v*4.75,y=v=>272-v*2.18;
- [0,25,50,75,100].forEach(v=>{svg.append(el('line',{x1:58,y1:y(v),x2:533,y2:y(v),stroke:'#e2e4e5'}),el('text',{x:48,y:y(v)+4,'text-anchor':'end','font-size':12},v),el('text',{x:x(v),y:292,'text-anchor':'middle','font-size':12},v));});
- svg.append(el('text',{x:58,y:23,'font-size':13},'Anatomical concentration (%)'),el('text',{x:295,y:322,'text-anchor':'middle','font-size':13},'Coverage of chata+ cells in area (%)'));
- s.forEach((v,i)=>{if(!Number.isFinite(v.c)||!Number.isFinite(v.p))return;const xx=x(v.c),yy=y(v.p);let pt=i===0?el('circle',{cx:xx,cy:yy,r:6}):i===1?el('rect',{x:xx-5,y:yy-5,width:10,height:10}):el('polygon',{points:`${xx},${yy-7} ${xx-6},${yy+5} ${xx+6},${yy+5}`});pt.setAttribute('fill','#1f7a8c');pt.append(el('title',{},`Fish ${v.fish}: ${fmt(v.p)} concentration, ${fmt(v.c)} coverage; ${v.n}/${v.all}`));svg.append(pt,el('text',{x:Math.min(xx+10,520),y:yy+(i===1?17:-9),'font-size':12},`Fish ${v.fish}`));});
- }
- function row(values){const tr=document.createElement('tr');values.forEach(t=>{const td=document.createElement('td');td.textContent=t;tr.append(td);});return tr;}
- function render(){const g=+$('marker').value,s=stats(g),name=d.genes[g],baseline=stats(d.chataIndex);chart(s);
- $('fish-table').tBodies[0].replaceChildren(...s.map(v=>row([v.fish,`${v.n} / ${v.all}`,v.base,fmt(v.c)])));
- $('metric-one').textContent=fmt(Math.min(...s.map(v=>v.p)));$('metric-two').textContent=fmt(Math.min(...s.map(v=>v.c)));$('metric-three').textContent=Math.min(...s.map(v=>v.n));
- const sparse=s.some(v=>v.n<+$('mincells').value),coverageFail=s.some(v=>v.c<+$('coverage').value);
- $('readout').textContent=`${name==='chata'?'chata alone':'chata + '+name}: ${sum(s.map(v=>v.n))} in-area cells across three animals. ${eligible(s)?'Meets the current per-fish evidence floors.':'Does not meet the current floors'+(sparse?' (sparse in at least one fish)':'')+(coverageFail?' (coverage too low in at least one fish)':'')+'.'} Baseline chata-only concentration spans ${fmt(Math.min(...baseline.map(v=>v.p)))}–${fmt(Math.max(...baseline.map(v=>v.p)))}. ${name==='cfos'?'Activity-dependent marker: useful as a state readout, not a stable driver recommendation.':name==='cx43'?'Inspect potential glial expression and segmentation mixing before interpreting.':''}`;
- const ranking=ranks();$('comparison').replaceChildren();ranking.forEach(({name,g,s})=>{const btn=document.createElement('button');btn.type='button';const v=Math.min(...s.map(x=>x.p));btn.innerHTML=`<span>${name}</span><span class="comparison-track"><span class="comparison-fill" style="width:${v}%"></span></span><span>${v.toFixed(1)}%</span>`;btn.setAttribute('aria-label',`${name}, lowest fish concentration ${v.toFixed(1)} percent`);btn.onclick=()=>{$('marker').value=g;render();};$('comparison').append(btn);});
- $('ranking-note').textContent=ranking.length?`${ranking.length} of 40 co-markers meet both floors. Bar = lowest per-fish concentration; not predicted driver specificity. cfos is a state-readout candidate only.`:'No co-marker meets these floors. Relax a threshold transparently or collect more data; no candidate is recommended under this setting.';
- const lofo=d.fish.map((f,i)=>{const winner=ranks([0,1,2].filter(j=>j!==i))[0];return winner?row([f,winner.name,`${fmt(winner.s[i].p)} / ${fmt(winner.s[i].c)}`,eligible(winner.s,[i])?'Yes':'No']):row([f,'No eligible marker','not estimable','—']);});$('lofo').tBodies[0].replaceChildren(...lofo);
- const top=ranking[0];$('plan').textContent=top?`Pilot proposal at these settings: co-label chata and ${top.name} with anatomical landmarks in independent larvae. Quantify double-positive cells per animal in and outside the target area; include chata-only, co-marker-only and negative-probe controls. A reproducible spatial pattern justifies follow-up physiological identification, not immediate transgenic targeting.${top.name==='cfos'?' Here cfos is activity-dependent: use it for a state assay, not a constitutive driver.':''}`:'Pilot decision: no robust shortlist at these floors. Keep chata as a broad reference, inspect sample/registration differences and obtain independent spatial data before narrowing the panel.';
- const hash=new URLSearchParams({region:$('region').value,marker:name,mincells:$('mincells').value,coverage:$('coverage').value});history.replaceState(null,'','#'+hash);
- }
- ['region','marker','mincells','coverage'].forEach(id=>$(id).addEventListener('change',render));
- document.querySelectorAll('[data-gene]').forEach(b=>b.onclick=()=>{$('marker').value=d.genes.indexOf(b.dataset.gene);render();});
- $('download').onclick=()=>{const rows=[['co_marker','fish','area','in_area','all_pair_positive','area_chata_positive','concentration_percent','coverage_percent','min_cells','min_coverage_percent','meets_floors']];d.genes.forEach((g,i)=>stats(i).forEach((s,j)=>rows.push([g,s.fish,$('region').selectedOptions[0].text,s.n,s.all,s.base,Number.isFinite(s.p)?s.p.toFixed(6):'',Number.isFinite(s.c)?s.c.toFixed(6):'',$('mincells').value,$('coverage').value,eligible(stats(i),[j])])));const blob=new Blob([rows.map(r=>r.map(x=>'"'+String(x).replaceAll('"','""')+'"').join(',')).join('\n')],{type:'text/csv'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='marker-panel-comparison.csv';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);};
- const params=new URLSearchParams(location.hash.slice(1));['region','mincells','coverage'].forEach(id=>{if([...$(id).options].some(o=>o.value===params.get(id)))$(id).value=params.get(id);});if(d.genes.includes(params.get('marker')))$('marker').value=d.genes.indexOf(params.get('marker'));render();
-}());
+(function () {
+"use strict";
+const $=id=>document.getElementById(id), NS="http://www.w3.org/2000/svg";
+document.querySelectorAll('select,button').forEach(e=>e.disabled=true);
+const color={ink:"#222",muted:"#999",accent:"#1f7a8c",selected:"#c07a2a"};
+const S={fish:0,cell:0,event:0,budget:10,score:"nutrient",yaw:.45,pitch:.58,records:[],projected:[],cache:new Map(),seq:0};
+const finite=x=>x!==null && Number.isFinite(x);
+const fmt=(n,d=1)=>finite(n)?n.toFixed(d):"not estimable";
+const pct=n=>finite(n)?(n>0?"+":"")+n.toFixed(1)+"%":"not estimable";
+const text=(id,s)=>$(id).textContent=s;
+const elem=(tag,attrs={},s)=>{const e=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));if(s!==undefined)e.textContent=s;return e;};
+const f=()=>S.records[S.fish], c=()=>f().cells[S.cell];
+const metric=(cell,key=S.score)=>cell.metrics[key+"_error_reduction_pct"];
+const shortlisted=r=>r.cells.filter(x=>x.discovery_rank<=S.budget);
+const good=(cell,key="nutrient")=>finite(metric(cell,key)) && metric(cell,key)>0 && cell.metrics.full_r>0;
+function axes(svg,xLabel,yLabel,{w=620,h=300,left=58,right=18,top=18,bottom=46}={}){
+ svg.replaceChildren();const g=elem("g");svg.append(g);g.append(elem("path",{d:"M"+left+" "+top+"V"+(h-bottom)+"H"+(w-right),fill:"none",stroke:"#aaa"}));
+ g.append(elem("text",{x:(left+w-right)/2,y:h-5,"text-anchor":"middle","font-size":12,fill:"#555"},xLabel));
+ g.append(elem("text",{x:left,y:12,"font-size":12,fill:"#555"},yLabel));
+ return {g,left,right,top,bottom,w,h};
+}
+function range(values){const a=values.filter(finite);if(!a.length)return [-1,1];let lo=Math.min(...a),hi=Math.max(...a);const pad=(hi-lo||1)*.08;return [lo-pad,hi+pad];}
+function pathSeries(g,time,values,idx,x,y,stroke,dash){let d="",pen=false;idx.forEach(i=>{if(!finite(values[i])){pen=false;return;}d+=(pen?"L":"M")+x(time[i]).toFixed(2)+","+y(values[i]).toFixed(2);pen=true;});g.append(elem("path",{d,fill:"none",stroke,"stroke-width":1.5,...(dash?{"stroke-dasharray":"5 4"}:{})}));}
+function labelEvent(e,r=f()){return (e.kind==="nutrient"?"Position "+r.target_position:e.kind==="control"?"Reference position "+r.reference_position:"Other UV")+" · "+e.time.toFixed(1)+" s · "+(e.role==="holdout"?"reserved":e.role==="discovery"?"discovery":e.role);}
+function options(select,values){select.replaceChildren();values.forEach(([v,l])=>{const e=document.createElement("option");e.value=v;e.textContent=l;select.append(e);});}
+function setupRecording(){
+ const r=f();const order=r.cells.map((v,i)=>[i,v]).sort((a,b)=>a[1].discovery_rank-b[1].discovery_rank);
+ options($("cell"),order.map(([i,v])=>[i,v.id+" · rank "+v.discovery_rank]));S.cell=order[0][0];$("cell").value=S.cell;
+ options($("event"),r.events.filter(e=>e.complete).map(e=>[r.events.indexOf(e),labelEvent(e)]));
+ S.event=Math.max(0,r.events.findIndex(e=>e.role==="holdout"&&e.kind==="nutrient"));$("event").value=S.event;
+ text("protocol-note",r.protocol.name+". Fixed source-index sampling; "+r.counts.sampled_cells_before_camera_baseline_qc+" sampled ROIs, "+r.counts.analyzed_cells+" analyzed after QC. "+r.protocol.analysis_binning+". Response scoring starts 2 s after a pulse and stops at the next pulse or 55 s. Training excludes reserved windows and a 55 s buffer. Fixed regularization (ridge 2, smoothness 20), training-only scaling. "+r.protocol.rank_definition.replaceAll('nutrient','position-code')+". Source metadata do not verify organ identity for each position code; comparisons remain code-specific.");
+ text("map-caption",r.label+" · "+r.counts.analyzed_cells+" sampled ROIs. Acquisition voxel indices; Z is expanded ×4 for display, not a physical-distance scale. No atlas or cell-type labels inferred.");
+ renderAll();
+}
+function project(){
+ const coords=f().cells.map(x=>x.xyz),mins=[0,1,2].map(k=>Math.min(...coords.map(a=>a[k]))),maxs=[0,1,2].map(k=>Math.max(...coords.map(a=>a[k])));
+ const center=mins.map((x,k)=>(x+maxs[k])/2),span=Math.max(maxs[0]-mins[0],maxs[1]-mins[1],4*(maxs[2]-mins[2]))||1;
+ return coords.map((v,i)=>{const x=(v[0]-center[0])/span*470,y=(v[1]-center[1])/span*470,z=(v[2]-center[2])/span*470*4;
+ const a=x*Math.cos(S.yaw)+z*Math.sin(S.yaw),b=-x*Math.sin(S.yaw)+z*Math.cos(S.yaw);
+ return {x:300+a,y:165+y*Math.cos(S.pitch)-b*Math.sin(S.pitch),z:y*Math.sin(S.pitch)+b*Math.cos(S.pitch),i};});
+}
+function drawBrain(){
+ const canvas=$("brain"),ctx=canvas.getContext("2d");ctx.setTransform(2,0,0,2,0,0);ctx.clearRect(0,0,600,330);
+ S.projected=project();const points=[...S.projected].sort((a,b)=>a.z-b.z);
+ points.forEach(p=>{const selected=p.i===S.cell,top=f().cells[p.i].discovery_rank<=S.budget;ctx.beginPath();ctx.arc(p.x,p.y,selected?5:top?3:1.6,0,Math.PI*2);ctx.fillStyle=selected?color.selected:top?color.accent:"#a5b0b477";ctx.fill();});
+ const p=S.projected[S.cell];ctx.strokeStyle=color.selected;ctx.beginPath();ctx.arc(p.x,p.y,8,0,Math.PI*2);ctx.stroke();
+ ctx.fillStyle=color.ink;ctx.font="12px system-ui";ctx.fillText("Cell "+c().id+" · ("+c().xyz.map(n=>n.toFixed(1)).join(", ")+")",12,20);
+ ctx.fillStyle="#777";ctx.font="11px system-ui";ctx.fillText("X / Y / Z: acquisition indices • depth display ×4",12,318);
+}
+async function getTrace(){
+ const r=f(),cell=c(),seq=++S.seq;
+ $("trace").replaceChildren();$("signals").replaceChildren();text("trial-note","Loading this cell's measured trial…");
+ const key=r.recording_id+"/"+cell.shard;
+ try {
+  if(!S.cache.has(key)){const response=await fetch(cell.shard+"?v=2");if(!response.ok)throw new Error("Trace file unavailable");const decoded=cell.shard.endsWith('.gz')?await new Response(response.body.pipeThrough(new DecompressionStream('gzip'))).json():await response.json();S.cache.set(key,decoded);}
+  if(seq!==S.seq)return;
+  const data=S.cache.get(key)[String(cell.id)]; if(!data)throw new Error("Cell trace absent");
+  drawTrace(data);
+ }catch(e){if(seq===S.seq)text("trial-note","Trace unavailable: "+e.message+". Other analysis remains visible; reload to retry.");}
+}
+function drawTrace(data){
+ const r=f(),ev=r.events[S.event],base=$("baseline").value;
+ const low=ev.time-10,high=Math.min(ev.time+55,r.time.at(-1)),idx=r.time.map((v,i)=>i).filter(i=>r.time[i]>=low&&r.time[i]<=high);
+ const all=[data.trace,...Object.values(data.predictions)].flatMap(arr=>idx.map(i=>arr[i])),[lo,hi]=range(all);
+ const a=axes($("trace"),"Seconds from selected pulse","ΔF/F · source-derived",{h:250}),{g}=a;
+ const x=t=>58+(t-low)/(high-low)*544,y=v=>204-(v-lo)/(hi-lo)*180;
+ g.append(elem("rect",{x:x(ev.time),y:20,width:Math.max(0,x(ev.evaluation_end)-x(ev.time)),height:184,fill:"#1f7a8c0c"}));
+ [lo,(lo+hi)/2,hi].forEach(v=>g.append(elem("text",{x:51,y:y(v)+4,"text-anchor":"end","font-size":11,fill:"#777"},fmt(v,2))));
+ [-10,0,20,40].forEach(v=>{const t=ev.time+v;if(t>=low&&t<=high){g.append(elem("text",{x:x(t),y:225,"text-anchor":"middle","font-size":11,fill:"#777"},v));}});
+ r.events.filter(e=>e.time>=low&&e.time<=high).forEach(e=>g.append(elem("line",{x1:x(e.time),x2:x(e.time),y1:20,y2:204,stroke:"#aaa","stroke-dasharray":"2 4"})));
+ pathSeries(g,r.time,data.predictions[base],idx,x,y,"#999",true);pathSeries(g,r.time,data.predictions.FULL,idx,x,y,"#222");pathSeries(g,r.time,data.trace,idx,x,y,color.accent);
+ const sg=$("signals");sg.replaceChildren();const gg=elem("g");sg.append(gg);const [ml,mh]=range(idx.map(i=>r.motor[i]));
+ gg.append(elem("text",{x:5,y:15,"font-size":11,fill:"#555"},"Motor proxy"));pathSeries(gg,r.time,r.motor,idx,x,v=>48-(v-ml)/(mh-ml)*25,"#666");
+ gg.append(elem("text",{x:5,y:74,"font-size":11,fill:"#555"},"Visual input"));pathSeries(gg,r.time,r.visual,idx,x,v=>95-v*24,color.accent);
+ const score=c().trial_metrics.find(z=>z.event_id===ev.id);
+ text("trial-note",labelEvent(ev)+". Shaded region ends at "+(ev.evaluation_end-ev.time).toFixed(1)+" s; first 2 s excluded from scoring. "+(score?"Full-model r "+fmt(score.full_r,2)+"; selected-site error reduction "+pct(score.nutrient_error_reduction_pct)+".":"Discovery/example window, not a reserved score.")+" "+(r.visual_available?"Visual input varies in this recording.":"No visual modulation in this recording; no visual-effect claim."));
+}
+function renderCell(){
+ const r=f(),cell=c(),m=cell.metrics;
+ text("metric-one",pct(m.nutrient_error_reduction_pct));text("metric-two",pct(m.multimodal_error_reduction_pct));text("metric-three",fmt(m.full_r,2));
+ text("sensitivity","Slow-drift sensitivity: selected-position gain without drift adjustment "+pct(cell.original_no_drift.nutrient_error_reduction_pct)+"; with the common cubic trend "+pct(m.nutrient_error_reduction_pct)+". "+(cell.alternative_reference?"Alternate reference code "+cell.alternative_reference.reference_position+": "+pct(cell.alternative_reference.metrics.nutrient_error_reduction_pct)+", full r "+fmt(cell.alternative_reference.metrics.full_r,2)+". Same ROI, no validation-based reranking.":"No alternate-reference analysis for this recording."));
+ const referenceStable=!cell.alternative_reference || (cell.alternative_reference.metrics.nutrient_error_reduction_pct>0 && cell.alternative_reference.metrics.full_r>0);
+ text("readout","Cell "+cell.id+" was discovery rank "+cell.discovery_rank+". On reserved selected-position events, the mean per-trial error reduction from adding its position code is "+pct(m.nutrient_error_reduction_pct)+". Mean per-trial full-model Pearson r is "+fmt(m.full_r,2)+". "+(!referenceStable?"The alternate-reference check fails: this candidate is sensitive to comparison choice.":good(cell)?"Both primary descriptive checks are positive; independent re-recording is still needed.":"This does not support immediate prioritization: error gain and response shape must both be inspected.")+" Position-to-organ identity is not verified.");
+ const body=$("trial-table").querySelector("tbody");body.replaceChildren();
+ cell.trial_metrics.forEach(v=>{const e=r.events.find(e=>e.id===v.event_id);const tr=document.createElement("tr");[labelEvent(e),pct(v.nutrient_error_reduction_pct),pct(v.multimodal_error_reduction_pct),fmt(v.full_r,2)].forEach(t=>{const td=document.createElement("td");td.textContent=t;tr.append(td);});body.append(tr);});
+ text("plan","First resolve the acquisition metadata: confirm what position codes "+r.reference_position+" and "+r.target_position+" illuminated and whether light actually reached those sites. "+(!referenceStable?"For this ROI, the priority is an interleaved, order-balanced recording: the earlier and later reference blocks lead to different conclusions. ":"")+"Establish anatomical registration or molecular identity before identifying a corresponding candidate in another animal; native coordinates alone are insufficient. Re-record with matched UV controls and a motor measurement. "+(good(cell)&&referenceStable?"A repeatable position-linked response would motivate a controlled perturbation, not establish a pathway by itself.":"Prioritize replication/QC over perturbation; compare response shape as well as average error.")+" Separate nutrient-dependent responses from site/light effects with suitable chemical controls. Vary movement/visual conditions independently where feasible; do not interpret motor adjustment as proof of a direct visceral pathway.");
+ drawBrain();renderScatter();getTrace();
+}
+function renderScatter(){
+ const r=f(),a=axes($("validation"),"Discovery position-code error reduction (%)","Reserved "+(S.score==="nutrient"?"position-code":"motor / available visual")+" gain (%)"),{g}=a;
+ // symlog keeps large negative failures visible without clipping the main cloud.
+ const trans=x=>Math.sign(x)*Math.log1p(Math.abs(x)),inv=x=>Math.sign(x)*Math.expm1(Math.abs(x));
+ const points=r.cells.filter(v=>finite(v.discovery_score)&&finite(metric(v)));
+ const [xl,xh]=range(points.map(v=>trans(v.discovery_score))),[yl,yh]=range(points.map(v=>trans(metric(v))));
+ const x=v=>58+(trans(v)-xl)/(xh-xl)*544,y=v=>254-(trans(v)-yl)/(yh-yl)*236;
+ [0,10,50,-10,-50,-200].forEach(v=>{if(trans(v)>=xl&&trans(v)<=xh){g.append(elem("text",{x:x(v),y:275,"text-anchor":"middle","font-size":10,fill:"#777"},v));}if(trans(v)>=yl&&trans(v)<=yh)g.append(elem("text",{x:51,y:y(v)+4,"text-anchor":"end","font-size":10,fill:"#777"},v));});
+ if(yl<=0&&yh>=0)g.append(elem("line",{x1:58,x2:602,y1:y(0),y2:y(0),stroke:"#aaa","stroke-dasharray":"3 4"}));
+ points.forEach(v=>{const selected=v.id===c().id,top=v.discovery_rank<=S.budget;const dot=elem("circle",{cx:x(v.discovery_score),cy:y(metric(v)),r:selected?5:top?3.2:1.7,fill:selected?color.selected:top?color.accent:"#abb4b488",class:"plot-point"});
+ const title=elem("title",{},"Cell "+v.id+" · discovery "+pct(v.discovery_score)+" · reserved "+pct(metric(v)));dot.append(title);
+ dot.addEventListener("click",()=>{S.cell=r.cells.findIndex(z=>z.id===v.id);$("cell").value=S.cell;renderCell();});g.append(dot);});
+ const list=shortlisted(r),n=list.filter(v=>good(v,S.score)).length;
+ text("shortlist-note",n+" / "+list.length+" discovery-ranked candidates have both positive reserved "+(S.score==="nutrient"?"position-code":"motor / available visual")+" error reduction and positive full-model correlation. These are descriptive checks, not validated biological targets. Axes use a signed log transform so large failures remain visible. Ranking stays fixed to the discovery position-code score in both comparisons.");
+ $("cohort").querySelector("thead th:last-child").textContent="Shortlist positive on reserved "+(S.score==="nutrient"?"position-code":"motor / visual")+" checks";
+ const body=$("cohort").querySelector("tbody");body.replaceChildren();
+ S.records.forEach(rr=>{const list=shortlisted(rr),tr=document.createElement("tr");[rr.label,rr.counts.analyzed_cells,rr.counts.validation_nutrient_events+" / "+rr.counts.validation_control_events,list.filter(v=>good(v,S.score)).length+" / "+list.length].forEach(t=>{const td=document.createElement("td");td.textContent=t;tr.append(td);});body.append(tr);});
+}
+function renderAll(){renderCell();}
+function download(name,content,mime){const a=document.createElement("a"),url=URL.createObjectURL(new Blob([content],{type:mime}));a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+$("fish").addEventListener("change",()=>{S.fish=+$("fish").value;setupRecording();});
+$("cell").addEventListener("change",()=>{S.cell=+$("cell").value;renderCell();});
+$("event").addEventListener("change",()=>{S.event=+$("event").value;getTrace();});
+$("baseline").addEventListener("change",getTrace);
+$("budget").addEventListener("change",()=>{S.budget=+$("budget").value;renderAll();});
+
+$("score").addEventListener("change",()=>{S.score=$("score").value;renderAll();});
+$("reset-view").addEventListener("click",()=>{S.yaw=.45;S.pitch=.58;drawBrain();});
+$("view-xy").addEventListener("click",()=>{S.yaw=0;S.pitch=0;drawBrain();});
+$("view-xz").addEventListener("click",()=>{S.yaw=0;S.pitch=Math.PI/2;drawBrain();});
+let drag=null;
+$("brain").addEventListener("pointerdown",e=>{drag={x:e.clientX,y:e.clientY,total:0};$("brain").setPointerCapture(e.pointerId);});
+$("brain").addEventListener("pointermove",e=>{if(!drag)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;drag.total+=Math.abs(dx)+Math.abs(dy);S.yaw+=dx*.009;S.pitch+=dy*.009;drag.x=e.clientX;drag.y=e.clientY;drawBrain();});
+$("brain").addEventListener("pointerup",e=>{if(drag&&drag.total<6){const b=$("brain").getBoundingClientRect(),x=(e.clientX-b.left)/b.width*600,y=(e.clientY-b.top)/b.height*330;const p=S.projected.reduce((a,b)=>Math.hypot(a.x-x,a.y-y)<Math.hypot(b.x-x,b.y-y)?a:b);if(Math.hypot(p.x-x,p.y-y)<15){S.cell=p.i;$("cell").value=S.cell;renderCell();}}drag=null;});
+$("brain").addEventListener("pointercancel",()=>{drag=null;});
+$("brain").addEventListener("keydown",e=>{if(["ArrowLeft","ArrowRight","ArrowUp","ArrowDown"].includes(e.key)){e.preventDefault();S.yaw+=(e.key==="ArrowRight"?.12:e.key==="ArrowLeft"?-.12:0);S.pitch+=(e.key==="ArrowDown"?.12:e.key==="ArrowUp"?-.12:0);drawBrain();}});
+$("download-cell").addEventListener("click",()=>download(f().recording_id+"-cell-"+c().id+".json",JSON.stringify({recording:f().recording_id,source:"10.25378/janelia.31967640.v1",cell:c(),protocol:f().protocol,source_coordinate_units:"native voxel indices; not physical or registered",target_position:f().target_position,reference_position:f().reference_position,trial_support:f().counts,source_manifest:"repro/"+f().recording_id+"_manifest.json",alternative_reference_protocol:f().alternative_reference??null,mapping_status:"unverified position-to-organ mapping; no causal or nutrient-specific identity",next_experiment:$("plan").textContent},null,2),"application/json"));
+$("download-shortlist").addEventListener("click",()=>{
+ const rows=[["recording","source_cell_id","discovery_rank","x_voxel","y_voxel","z_voxel","selected_position_code","reference_code","discovery_gain_pct","reserved_site_gain_pct","reserved_multimodal_gain_pct","reserved_full_r","no_drift_gain_pct","alternate_reference_code","alternate_site_gain_pct","alternate_full_r","reference_sensitive","mapping_status"]];
+ S.records.forEach(r=>shortlisted(r).sort((a,b)=>a.discovery_rank-b.discovery_rank).forEach(v=>rows.push([r.recording_id,v.id,v.discovery_rank,...v.xyz,r.target_position,r.reference_position,v.discovery_score,v.metrics.nutrient_error_reduction_pct,v.metrics.multimodal_error_reduction_pct,v.metrics.full_r,v.original_no_drift.nutrient_error_reduction_pct,v.alternative_reference?.reference_position??"",v.alternative_reference?.metrics.nutrient_error_reduction_pct??"",v.alternative_reference?.metrics.full_r??"",v.alternative_reference?(v.alternative_reference.metrics.nutrient_error_reduction_pct<=0||v.alternative_reference.metrics.full_r<=0):"not tested","unverified organ mapping"])));
+ download("discovery-shortlist.csv",rows.map(row=>row.map(v=>'"'+String(v??"").replaceAll('"','""')+'"').join(",")).join("\n"),"text/csv");});
+(async()=>{try{S.records=await Promise.all(window.DEMO_RECORDS.map(async url=>{const r=await fetch(url+"?v=2");if(!r.ok)throw new Error("Analysis file unavailable");return r.json();}));options($("fish"),S.records.map((r,i)=>[i,r.label]));$("explorer").hidden=false;text("load-status",S.records.reduce((n,r)=>n+r.cells.length,0).toLocaleString()+" source-index sampled, QC-passed ROIs across "+S.records.length+" recordings. Organ mapping remains unverified; all position labels are literal acquisition codes.");document.querySelectorAll("select,button").forEach(e=>e.disabled=false);setupRecording();}catch(e){text("load-status","The analysis could not load: "+e.message+". Reload or use the linked repository; no example results are substituted.");$("load-status").classList.add("error");}})();
+})();

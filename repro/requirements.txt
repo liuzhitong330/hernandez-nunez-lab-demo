@@ -1,0 +1,7 @@
+# Versions used for the analysis and optional original-data extraction.
+# Python 3.9-3.12; numerical model reruns require only NumPy.
+numpy==2.0.2
+scipy==1.13.1
+h5py==3.14.0
+requests==2.32.5
+matplotlib==3.9.4
